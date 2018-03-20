@@ -1,0 +1,83 @@
+	
+Canada
+BoC May meeting: encouraging data overshadow housing risks
+
+Actual: 0.5% overnight rate target
+Consensus forecast: 0.5%
+Barclays forecast: 0.5%
+ 
+The BoC highlighted the recent encouraging data and did not mull on the risks to financial stability that had gathered some attention in the past few weeks.
+The strong growth in Q1 is likely to moderate, but the adjustment to lower oil prices is largely complete.
+Inflation dynamics are as it expected, with low core inflation and wage growth signaling ongoing excess capacity.
+The bank reiterated its concern regarding the competitive issues that Canadian exports have been facing, and reiterated the risks to the outlook outlined in the April MPR.
+Despite the upbeat tone, the neutral stance remains and we expect the BoC to stay on hold in 2017.
+The BoC kept its neutral stance but with a more upbeat tone.
+Bank of Canada held its overnight rate target at 0.5% but instilled a slightly more optimistic tone to the statement.
+The BoC dismissed recent weakness in headline inflation as it has been driven by lower food prices, although it reiterated weakness in core inflation and wage growth.
+In contrast with the April statement, the bank judges recent data as encouraging, and dropped its warning that some of the data rebound was temporary.
+However, it acknowledged the pace of activity is expected to moderate in Q2.
+Therefore, the current policy stance remains appropriate (see May 2017 BoC¡¦s statement).
+Contrary to our expectations, there was no extensive discussion of financial stability issues, and the statement is less defensive than what we had expected (see Thoughts for the week ahead: ripples in the sea of tranquility, May 21, 2017)
+
+Encouraging data overshadow housing risks.
+Data improved in Q1 17, supported by the rebound in oil prices and the effects of the Child Care benefit.
+In April, the BoC had a cautious tone on the data, as some of the rebound was due to transitory factors.
+However, in May the BoC decided to highlight the ¡§recent encouraging data, including indicators of business investment¡¨ and its broader scope across regions, although it warned that activity will moderate its pace in Q2.
+The recent issues with Home Capital Group and Moody¡¦s downgrade of Canadian banks were overlooked (see Canada: Two warning signs on financial stability, May 12, 2017), and the BoC instead decided to highlight the effects of macroprudential policy in contributing to more sustainable debt profiles, without having so far cooled significantly the housing markets.
+Despite the upbeat tone, the neutral stance remains and we expect the BoC to stay on hold in 2017.
+Although the worst of the adjustment to low oil prices is behind us, significant slack remains in the economy, and wage growth and core inflation remain subdued.
+The robust consumption spending could be at risk if wage growth remains at historically low levels, as real income erodes.
+Furthermore, investment decisions could be delayed or downsized due to uncertainty over US economic and trade policies.
+We reiterate our view that the BoC will remain on hold for the rest of the year and continue to expect USDCAD to reach 1.40 by year-end
+
+sentence: but the adjustment to lower oil prices is largely complete.
+========================================
+market:
+entity:oil  central#commodity
+sentiment:lower  @#down
+
+sentence: with low core inflation and wage growth signaling ongoing excess capacity.
+========================================
+market:
+entity:wage growth  central#labour
+sentiment:low  @#low
+========================================
+market:
+entity:core inflation  central#inflation
+sentiment:low  @#low
+
+sentence:the boc dismissed recent weakness in headline inflation as it has been driven by lower food prices
+========================================
+market:can
+entity:food prices  central#commodity
+sentiment:lower  @#down
+
+sentence: supported by the rebound in oil prices and the effects of the child care benefit.
+========================================
+market:can
+entity:oil  central#commodity
+sentiment:rebound  @#good
+
+sentence:although the worst of the adjustment to low oil prices is behind us
+========================================
+market:can
+entity:oil  central#commodity
+sentiment:low  @#low
+
+sentence: significant slack remains in the economy
+========================================
+market:can
+entity:economy  central#econ
+sentiment:slack  @#bad
+
+sentence: and wage growth and core inflation remain subdued.
+========================================
+market:can
+entity:core inflation  central#inflation
+sentiment:subdued  @#down
+
+========================================
+warning sentence:  and dropped its warning that some of the data rebound was temporary.
+
+========================================
+warning sentence:  two warning signs on financial stability

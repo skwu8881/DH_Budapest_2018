@@ -1,0 +1,28 @@
+FOMC Minutes: Balance Sheet To Shrink This Year; Some Saw Stock Prices As "Quite High"
+2017-04-05 19:08:00+00:00
+as previewed, the focus on the just released fed minutes was on two things: the path of the rate hike, which the fed said it can change its assessment if warranted, and on the future of the fed's balance sheet, where the fomc said said a reinvestment shift was warranted, suggesting that a balance sheet reduction would likely begin later this year. key excerpts: to be sure, this is hardly the news the bond complex wanted, which has sold off following this latest warning that the fed may begin shrinking its balance sheet. however the biggest surprise was in the latest caution by "some" fed members that stock prices are quite high, and that the fed is increasingly worried about asset bubbles, to wit: here is the section in question: in their discussion of recent developments in financial markets, participants noted that financial conditions remained accommodative despite the rise in longer-term interest rates in recent months and continued to support the expansion of economic activity. many participants discussed the implications of the rise in equity prices over the past few months, with several of them citing it as contributing to an easing of financial conditions . a few participants attributed the recent equity price appreciation to expectations for corporate tax cuts or to increased risk tolerance among investors rather than to expectations of stronger economic growth. some participants viewed equity prices as quite high relative to standard valuation measures. and this: "stock prices rose across most industries, and equity prices for financial firms outperformed broader indexes. meanwhile, spreads of yields on bonds issued by nonfinancial corporations over those on comparable-maturity treasury securities were little changed." and then the punchline, which confirms that the fed is only focused on the s&p: the fed explicitly warns of "downside risks" to its forecasts if "financial markets were to experience a significant correction." the passage in question: ... a number of participants remarked that recent and prospective changes in financial conditions posed upside risks to their economic projections, to the extent that financial developments provided greater stimulus to spending than currently anticipated, as well as downside risks to their economic projections if, for example, financial markets were to experience a significant correction . participants also mentioned potential developments abroad that could have adverse implications for the u.s. economy. * * * below are selected excerpts from the fomc meeting minutes that concluded on march 15, via bbg: * * * and the full minutes ( link ): tips: tips [ at ] zerohedge.com general: info [ at ] zerohedge.com legal: legal [ at ] zerohedge.com advertising: ads [ at ] zerohedge.com abuse/complaints: abuse [ at ] zerohedge.com advertise with us make sure to read our " how to [read/tip off] zero hedge without attracting the interest of [human resources/the treasury/black helicopters] " guide it would be very wise of you to study our disclaimer , our privacy policy and our (non)policy on conflicts / full disclosure . here's our cookie policy . how to report offensive comments notice on racial discrimination .
+
+sentence: the focus on the just released fed minutes was on two things: the path of the rate hike
+========================================
+entity:rate  central#rate
+sentiment:hike  @#up
+
+sentence: participants noted that financial conditions remained accommodative despite the rise in longer-term interest rates in recent months and continued to support the expansion of economic activity.
+========================================
+entity:rates  central#rate
+sentiment:rise  @#up
+
+sentence:many participants discussed the implications of the rise in equity prices over the past few months
+========================================
+entity:equity  central#eqt
+sentiment:rise  @#up
+
+sentence:a few participants attributed the recent equity price appreciation to expectations for corporate tax cuts or to increased risk tolerance among investors rather than to expectations of stronger economic growth.
+========================================
+entity:risk  central#risk
+sentiment:increased  @#up
+
+sentence:and this: "stock prices rose across most industries
+========================================
+entity:stock  central#stock
+sentiment:rose  @#up

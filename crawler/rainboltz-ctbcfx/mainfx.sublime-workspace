@@ -1,0 +1,444 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"append"
+			],
+			[
+				"svg",
+				"svgctrl"
+			],
+			[
+				"t",
+				"text-top"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"W",
+				"WordPerfect"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"conta",
+				"contacts"
+			],
+			[
+				"align",
+				"align-self"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"in",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/pecu6/Desktop/FinTech/中國信託/2017-03-24/forexlifeEasy.py",
+		"/C/Users/pecu6/Desktop/python教科書/examplecode/book_3-3.py",
+		"/C/Users/pecu6/Desktop/python教科書/examplecode/book_3-4.py",
+		"/C/Users/pecu6/Desktop/mainfx.py",
+		"/C/Users/pecu6/Desktop/db36f6.csv",
+		"/C/Users/pecu6/Desktop/test.txt",
+		"/C/Users/pecu6/Desktop/asgtwn_g10-12_TP11.sav",
+		"/C/Users/pecu6/Desktop/teacher/TIMSS2011TW.txt",
+		"/C/Users/pecu6/Desktop/教學資料/Ｒ教材/airpollution/people.csv",
+		"/C/Users/pecu6/Desktop/final_ver1",
+		"/C/Users/pecu6/Desktop/airpollution/people.csv",
+		"/C/Users/pecu6/Desktop/python教科書/examplecode/book_4-1-2.py",
+		"/C/Users/pecu6/Desktop/introduction.tex.bak",
+		"/C/Users/pecu6/Desktop/FinTech/ML/kaggle2/testset.csv",
+		"/C/Users/pecu6/Desktop/FinTech/ML/kaggle2/競賽資料-utf8/þ½ÂÞ│¢Þ│çµûÖ-utf8/testset.csv",
+		"/C/Users/pecu6/Desktop/FinTech/中國信託/2017-03-24/forexlife.py",
+		"/C/Users/pecu6/Desktop/python教科書/Introduction to Data Science in Python_2017/Coursera/Assignment+2.py",
+		"/C/Users/pecu6/Desktop/python教科書/Introduction to Data Science in Python_2017/Coursera/Week+3.py",
+		"/C/Users/pecu6/Desktop/NTU-CSX/R FinTech/pecutsai/index.html",
+		"/C/Users/pecu6/Desktop/FinTech/ML/data/Result.txt",
+		"/C/Users/pecu6/Desktop/FinTech/ML/data/Permission_list.txt",
+		"/C/Users/pecu6/Desktop/NTU-CSX/R FinTech/pecutsai/research.html",
+		"/C/Users/pecu6/Desktop/NTU-CSX/R FinTech/pecutsai/trainer.html",
+		"/C/Users/pecu6/Desktop/NTU-CSX/R FinTech/pecutsai/contacts.html",
+		"/C/Users/pecu6/Desktop/NTU-CSX/R FinTech/pecutsai/course.html",
+		"/C/Users/pecu6/Desktop/NTU-CSX/R FinTech/pecutsai/CSX.html",
+		"/C/Users/pecu6/Desktop/svmTest/Y.csv",
+		"/C/Users/pecu6/Desktop/svmTest/X.csv",
+		"/C/Users/pecu6/Desktop/test",
+		"/C/Users/pecu6/Desktop/video/2017-02-26/code/students.csv",
+		"/C/Users/pecu6/Desktop/區塊鍊/玉山銀行/2017-02-24 玉山銀行會議記錄.txt",
+		"/C/Users/pecu6/Desktop/NTU CS+X 授權碼登記表 (蔡芸琤老師).csv",
+		"/C/Users/pecu6/Desktop/py2",
+		"/C/Users/pecu6/Desktop/HW.txt",
+		"/C/Users/pecu6/Desktop/區塊鍊/第一銀行/海外供應_output/SC_SUPPLIERPRICE.txt",
+		"/C/Users/pecu6/Desktop/區塊鍊/第一銀行/海外供應_output/SC_SUPPLIERINFO.txt",
+		"/C/Users/pecu6/Desktop/區塊鍊/第一銀行/海外供應_output/SC_LOAN_D.txt",
+		"/C/Users/pecu6/Desktop/區塊鍊/第一銀行/海外供應_output/SC_FINANCINGRATE.txt",
+		"/C/Users/pecu6/Desktop/區塊鍊/第一銀行/海外供應_output/SC_FINANCINGDETAIL.txt",
+		"/C/Users/pecu6/Desktop/區塊鍊/第一銀行/海外供應_output/SC_FINANCINGPAY.txt",
+		"/C/Users/pecu6/Desktop/區塊鍊/第一銀行/海外供應_output/SC_BUYERINFO.txt",
+		"/C/Users/pecu6/Desktop/區塊鍊/第一銀行/海外供應_output/OBS_MPAYDETAIL.txt",
+		"/C/Users/pecu6/OneDrive/文件/toDO-CSX.txt",
+		"/C/Users/pecu6/Desktop/康老師資料視覺化/powerbi.txt",
+		"/C/Users/pecu6/Desktop/testdb.csv",
+		"/C/Users/pecu6/Desktop/區塊鍊/第一銀行/海外供應_output/SC_FINANCINGPAY.csv",
+		"/C/Users/pecu6/OneDrive/文件/GitHub/python/index.py",
+		"/C/Users/pecu6/Desktop/區塊鍊/第一銀行/第一銀行2017-01-17 Meeting.txt",
+		"/C/Users/pecu6/Desktop/教學助理聘僱作業/申請資料.txt",
+		"/C/Users/pecu6/Desktop/powerbi.txt",
+		"/C/Users/pecu6/Desktop/SET短講照片_蔡芸琤/plot_omp.py",
+		"/C/Users/pecu6/Desktop/區塊鍊/第一銀行/第一銀行2017-01-09 Meeting.txt",
+		"/C/Users/pecu6/Desktop/2017-01-13 HSBC Meeting",
+		"/C/Users/pecu6/Desktop/Pecu2/pecu2/data_full.csv",
+		"/C/Users/pecu6/Desktop/Pecu2/pecu2/ui.R",
+		"/C/Users/pecu6/Desktop/Pecu2/pecu2/server.R",
+		"/C/Users/pecu6/Desktop/Pecu2/pecu2/data_full µïÀÞ▓Ø 2.csv",
+		"/C/Users/pecu6/Desktop/第一銀行.txt",
+		"/C/Users/pecu6/Desktop/showtime.html",
+		"/C/Users/pecu6/Desktop/2017-01-08 meeting with wei",
+		"/C/Users/pecu6/讀書會/2016-12-15/LRM.R",
+		"/C/Users/pecu6/Desktop/tiger/15.html",
+		"/C/Users/pecu6/Desktop/tiger/05.html",
+		"/C/Users/pecu6/Desktop/tiger/14.html",
+		"/C/Users/pecu6/Desktop/tiger/13.html",
+		"/C/Users/pecu6/Desktop/tiger/12.html",
+		"/C/Users/pecu6/Desktop/tiger/11.html",
+		"/C/Users/pecu6/Desktop/tiger/10.html",
+		"/C/Users/pecu6/Desktop/tiger/09.html",
+		"/C/Users/pecu6/Desktop/tiger/08.html",
+		"/C/Users/pecu6/Desktop/tiger/01.html",
+		"/C/Users/pecu6/Desktop/tiger/02.html",
+		"/C/Users/pecu6/Desktop/tiger/03.html",
+		"/C/Users/pecu6/Desktop/tiger/04.html",
+		"/C/Users/pecu6/Desktop/tiger/index.html",
+		"/C/Users/pecu6/Desktop/tiger/06.html",
+		"/C/Users/pecu6/Desktop/tiger/07.html",
+		"/C/Users/pecu6/Desktop/solid/theme/14.html",
+		"/C/Users/pecu6/Desktop/solid/theme/13.html",
+		"/C/Users/pecu6/Desktop/solid/theme/12.html",
+		"/C/Users/pecu6/Desktop/solid/theme/11.html",
+		"/C/Users/pecu6/Desktop/solid/theme/10.html",
+		"/C/Users/pecu6/Desktop/solid/theme/09.html",
+		"/C/Users/pecu6/Desktop/solid/theme/08.html",
+		"/C/Users/pecu6/Desktop/solid/theme/07.html",
+		"/C/Users/pecu6/Desktop/solid/theme/06.html",
+		"/C/Users/pecu6/Desktop/solid/theme/05.html",
+		"/C/Users/pecu6/Desktop/solid/theme/03.html",
+		"/C/Users/pecu6/Desktop/solid/theme/04.html",
+		"/C/Users/pecu6/Desktop/solid/theme/01.html",
+		"/C/Users/pecu6/Desktop/solid/theme/02.html",
+		"/C/Users/pecu6/Desktop/solid/theme/15.html",
+		"/C/AppServ/www/PHPSampleCodes/testBAT/runPHP.bat",
+		"/C/Users/pecu6/Desktop/ex2.m",
+		"/C/Users/pecu6/Desktop/toDoList.txt",
+		"/C/Users/pecu6/SCI Paper/FX/俊豪/rcrawler_test.xml",
+		"/C/Users/pecu6/Desktop/rcrawler_test.xml",
+		"/C/Users/pecu6/Desktop/rcrawler_test.R",
+		"/C/Users/pecu6/Desktop/105-2students.txt",
+		"/C/Users/pecu6/Desktop/RLadies/example/main.html",
+		"/C/Users/pecu6/Desktop/RLadies/example/ex1.html",
+		"/C/Users/pecu6/Desktop/RLadies/example/ex2.html",
+		"/C/Users/pecu6/Desktop/RLadies/example/ex7.html",
+		"/C/Users/pecu6/Desktop/RLadies/example/ex6.html",
+		"/C/Users/pecu6/Desktop/RLadies/example/ex5.html",
+		"/C/Users/pecu6/Desktop/RLadies/example/ex4.html",
+		"/C/Users/pecu6/Desktop/RLadies/example/ex3.html",
+		"/C/Users/pecu6/Documents/mychart2.html",
+		"/C/Users/pecu6/Documents/mychart1.html",
+		"/C/Users/pecu6/OneDrive/文件/toDO.txt",
+		"/C/Users/pecu6/Desktop/team3/mrt/mrt.geojson",
+		"/C/Users/pecu6/Desktop/scatterChart_hacked.html",
+		"/C/Users/pecu6/Desktop/RLadies/scatterChart_hacked.html",
+		"/C/Users/pecu6/Desktop/team3/area.csv",
+		"/C/Users/pecu6/Desktop/PL000000048152.kml",
+		"/C/Users/pecu6/Desktop/team3/taipei/area.geojson",
+		"/C/Users/pecu6/Desktop/team3/area.geojson",
+		"/C/Users/pecu6/Desktop/team3/taipei/taipei.dbf",
+		"/C/Users/pecu6/Desktop/資管系.txt",
+		"/C/Users/pecu6/Desktop/cv.txt",
+		"/C/Users/pecu6/Desktop/index.php",
+		"/C/Users/pecu6/Desktop/texts/about-1.txt",
+		"/C/Users/pecu6/Desktop/customGET.js",
+		"/C/Users/pecu6/Desktop/texts/modal-6.txt",
+		"/C/Users/pecu6/Desktop/texts/modal-5.txt",
+		"/C/Users/pecu6/Desktop/texts/modal-4.txt",
+		"/C/Users/pecu6/Desktop/texts/modal-3.txt",
+		"/C/Users/pecu6/Desktop/texts/modal-2.txt"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"&#47;",
+			"\t",
+			"\t   ",
+			",",
+			"\t",
+			",",
+			"\"",
+			"\t",
+			"_",
+			"林",
+			"portfolio_",
+			"96,簡,223",
+			"&#47;",
+			"]",
+			"[",
+			"  ",
+			"]",
+			"[",
+			"parseFloat",
+			"refreshCurrent",
+			"pm-rsvg-wrapper svg",
+			"switchable-div",
+			"bar-chart-panel",
+			"createAxes",
+			"div-switch-wrapper",
+			"refreshCurrent",
+			"div-switch.active",
+			"refreshGenderPlot",
+			"gender-plot-panel",
+			"refreshBarChart",
+			"prepareTargetRegion",
+			";",
+			"d3.dsv",
+			"d3.csv",
+			"\t",
+			"valueline",
+			"parseTime",
+			",",
+			"林弘",
+			"B00",
+			"contacts",
+			"_blank",
+			"WordPerfectLab",
+			"/t ",
+			"cp_contactformtoemail_fbuilder_config_1",
+			".下載",
+			"下載",
+			"://",
+			"Partners",
+			"language",
+			"WordPerfect Lab _ Perfect Wording_files",
+			"ABOUT",
+			"TITLE",
+			"contact",
+			"submit",
+			"name",
+			"contact",
+			"contant"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/",
+			",",
+			"",
+			",",
+			"",
+			";",
+			"",
+			"/",
+			"",
+			",",
+			";",
+			"CSX",
+			"",
+			"WordPerfectLab"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 42.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mainfx.sublime-project",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 750.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 570.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 344.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

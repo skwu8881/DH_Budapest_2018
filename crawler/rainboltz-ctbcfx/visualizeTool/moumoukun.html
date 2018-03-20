@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	<style>
+		html, body{
+			font-family: 'Fira Sans', sans-serif;
+			height: 100%;
+			width: 100%;
+		    margin: 0 auto;
+		}
+		nor {
+			background-color: #ffe6cc;
+			color: black;
+		}
+		pos {
+		    background-color: #80ff80;
+		    color: black;
+		}
+		pospos {
+		    background-color: #00ff00;
+		    color: black;
+		}
+		neg {
+		    background-color: #ff6666;
+		    color: black;
+		}
+		negneg {
+		    background-color: #ff0000;
+		    color: black;
+		}
+		a {
+		    text-decoration: none;
+		}
+		td{
+		    text-align: center;
+		    vertical-align: middle !important;
+		}
+		th {
+		    text-align: center;
+		    vertical-align: middle !important;
+			font-weight: 800 !important;
+			font-size: 1.5em;
+		}
+	</style>
+</head>
+<body>
+	<div class="container" style="min-height: 100%; min-width: 100%; background-color: #D5D5D5;">
+		<div class="container-fluid" style="top: 25px; position: relative;">
+		    <div style="text-align: center;">
+				<div class="breadcrumb">
+					<textarea id="instr" class="form-control custom-control" rows="8" style="resize:none"></textarea>
+					<hr>
+					<table class="table">
+						<tr>
+							<th rowspan="3">Thresholds: </th>
+							<tr>
+								<td>WORDS</td>
+								<td>COLOR</td>
+								<td>STRONG</td>
+							</tr>
+							<tr>
+								<td><input id="w_th" value="0.15"></td>
+								<td><input id="c_th" value="0.01"></td>
+								<td><input id="r_th" value="0.05"></td>
+							</tr>
+						</tr>
+					</table>
+					<hr>
+					<div style="text-align: center;">
+						<a href="#" id="run_btn" class="btn btn-primary btn-primary" onclick="Eval()">
+							START EVALUATE <span class="glyphicon glyphicon-refresh"></span>
+						</a>
+					</div>
+				</div> <!-- first breadcrumb div close -->
+				<div id="output_section" class="breadcrumb" style="display: none; text-align: left;">
+				</div> <!-- second breadcrumb div close -->
+			</div> <!-- inner div close -->
+		</div> <!-- container-fluid div close -->
+	</div> <!-- container div close -->
+	
+	<script>
+		function Eval(){
+			
+			if($('#run_btn').attr("disabled"))
+				return;
+			
+			var inputstr = $('textarea#instr').val();
+			var w = $('input#w_th').val();
+			var c = $('input#c_th').val();
+			var r = $('input#r_th').val();
+			
+			if(inputstr=="")
+			{
+				alert("You have no input in the textarea !! ");
+				return;
+			}
+			
+			$('#run_btn').text("RUNNING...");
+			$('#run_btn').attr("disabled",true);
+			
+			$.post("/eval",{ article:inputstr, w:w, c:c, r:r}, function(data,status){
+			            if(status == "success")
+			            {
+							$("#output_section").html("");
+				  			$("#output_section").append(data);
+				  			$("#output_section").css("display","block");
+				
+							$('[data-toggle="tooltip"]').tooltip();
+				
+				  			$('#run_btn').text("START EVALUATE");
+				  			$('#run_btn').attr("disabled",false);
+			            }
+			            else
+			            {
+			                alert("Ajax Failure!");
+			            }
+			        });
+		
+		}
+		</script>
+	</script>
+	
+</body>
+</html>

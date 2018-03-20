@@ -1,0 +1,33 @@
+FOMC Minutes Preview
+2017-04-05 18:35:00+00:00
+with the march fomc minutes due out shortly, here are the key items to focus on, courtesy of ransquawk which reminds us that at the march meeting, the fomc decided to hike rates by 25bps, the third hike of the tightening cycle, taking the rate to 0.75%-1.00%. although the fed signalled further tightening this year, markets had expected the fed to indicate four hikes in 2017, however, the median stayed at three and market expectations for four or more hikes declined. as a result, the minutes will be scoured for clues on why the fed decided to push forward with hiking rates at this meeting but not signal a faster path to the neutral rate, which they kept at 3.0%. markets will also be looking for the fed to give any hints on what it will take for the fed to raise rates for a fourth time in the cycle. a key topic for the fed recently has been about how and when they will shrink the balance. minneapolis fed president kashkari dissented at the decision for two reasons; firstly, key data hadn't changed since the prior meeting, and secondly, because he would have preferred the fed to publish a plan on balance sheet normalisation before the next rate hike. the fed announced that they have begun the discussion about normalisation at the latest meeting but at the moment the details are scarce so the minutes should at least give a hint on timing. recently, harker said reinvestments may be appropriate at the end of 2017 but timing will depend on how the economy evolves. dudley said the reinvestments could also start late this year. dudley also added that when normalisation starts, that could be a substitute for short-term rate hikes, meaning that if the fed does begin to wind down the balance sheet then rate increases might be postponed. the fed will be wary of creating a situation similar to that observed during the taper tantrum in 2013 when the then fed chair bernanke spooked markets by suggesting that qe would end abruptly. soc gen strategist rajappa writes, "people are not paying nearly as much attention to or pricing-in the potential impact of fed tapering reinvestments." in summary, the 4 key things to keep an eye on, via the wsj : federal reserve officials are zeroing in on a strategy to begin winding down their $4.5 trillion portfolio of mortgage and treasury securities, possibly later this year, as part of their broader effort to wind down their extraordinary postcrisis stimulus efforts. the approach would involve raising rates two more times this year and then pausing rate moves while they start reducing the holdings, also called the balance sheet, in a gradual way. will the fed change its outlook on the balance of risks facing the economy? for years, central bankers around the world have worried more about the possibility the economy could perform worse than forecast than the chance it could perform better than expected. the fed, in its statement after the march meeting, said the near-term risks to the economy appeared “roughly balanced.” but officials have been a touch sunnier in recent public statements, noting more often the possibility it could grow faster than expected because of its own momentum or rising stock prices or possible new economic policies from the trump administration and congress. the minutes could clarify their differences. officials indicated at the march meeting they remained on track to raise short-term rates two more times this year, but didn’t indicate when they expected to move. the minutes could signal whether they could move as soon as their meetings in may or in june. nearly seven in 10 economists surveyed by the wall street journal last month said they expect the next rate increase in june. nearly seven in 10 economists surveyed by the wall street journal last month said they expect the next rate increase in june. fed officials have kept a close eye on the white house and capitol hill as they assess the likelihood of tax cuts, regulatory changes, spending increases or other policies that could boost economic growth and potentially drive up inflation. washington hasn’t offered much clarity. the minutes of their january meeting showed officials were split over whether they should begin planning for such fiscal stimulus or wait for more concrete details on policy proposals. the minutes of the march meeting could offer new insight into whether they expect action soon. tips: tips [ at ] zerohedge.com general: info [ at ] zerohedge.com legal: legal [ at ] zerohedge.com advertising: ads [ at ] zerohedge.com abuse/complaints: abuse [ at ] zerohedge.com advertise with us make sure to read our " how to [read/tip off] zero hedge without attracting the interest of [human resources/the treasury/black helicopters] " guide it would be very wise of you to study our disclaimer , our privacy policy and our (non)policy on conflicts / full disclosure . here's our cookie policy . how to report offensive comments notice on racial discrimination .
+
+sentence: the fomc decided to hike rates by 25bps
+========================================
+entity:rates  central#rate
+sentiment:hike  @#up
+
+sentence:markets will also be looking for the fed to give any hints on what it will take for the fed to raise rates for a fourth time in the cycle.
+========================================
+entity:fed  central#us
+sentiment:raise  @#up
+
+sentence: because he would have preferred the fed to publish a plan on balance sheet normalisation before the next rate hike.
+========================================
+entity:balance sheet  central#balance
+sentiment:hike  @#up
+
+sentence:officials indicated at the march meeting they remained on track to raise short-term rates two more times this year
+========================================
+entity:rates  central#rate
+sentiment:raise  @#up
+
+sentence:nearly seven in 10 economists surveyed by the wall street journal last month said they expect the next rate increase in june.
+========================================
+entity:rate  central#rate
+sentiment:increase  @#up
+
+sentence:nearly seven in 10 economists surveyed by the wall street journal last month said they expect the next rate increase in june.
+========================================
+entity:rate  central#rate
+sentiment:increase  @#up

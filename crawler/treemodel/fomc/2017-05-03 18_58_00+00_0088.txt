@@ -1,0 +1,33 @@
+"Hawkish" Fed Shrugs Off "Transitory" Weakness In Data, Signals More Rate Hikes Ahead
+2017-05-03 18:58:00+00:00
+having perfectly top-ticked us economic data with its march rate-hike, the subsequent collapse in 'data' has been shrugged off as transitory (or seasonal) and by all indications the fed seems set on two more rate hikes this year no matter what (even as the market diverges dovishly). there was no mention of the most hotly debated topic at this moment, the fed's balance sheet. but at least the fed was unified this time - there were no dissenters. * * * here are some of the most notable changes (in bold): the fed commented that inflation is reaching its goal: ... although: but the key phrase: slowing growth was transitory: on net: a more hawkish than dovish statement. *  *  * first things first, the fed offered no explanation for the fact that they hiked rates during a quarter that saw just 0.7% gdp growth - the weakest quarter for a rate hike since 1980 ... since the fed hiked rates in march, things have not gone the way they may have hoped ... gold and bonds are bid, stocks are unchanged and banks have been battered... it is perhaps noteworthy that the fed rate hike in march was the absolute top-tick in post-trump us economic data - the collapse since then has been anything but 'transitory'... federal reserve officials have suggested it will probably be appropriate to begin unwinding the central bank’s $4.5 trillion balance sheet later this year, but that guidance is premised in part on projections that they will be able to raise interest rates twice more before the year is out. however, investors see just one more hike in 2017 as more likely than two, according to the prices of federal funds futures contracts. june rate hike odds continue to hover near 70% (despite economic data's collapse)... but the market remains notably less hawkish than the fed... all eyes are on any commentary with regard the fed balance sheet... and don't forget, the maturation of the fed balance sheet is chunky... as bloomerg reports, analysts expect the fed will have to decide whether to roll over a certain percentage of its principal or announce a fixed dollar target of its treasury and mortgage securities to unwind the $4.26 trillion of debt in a “passive and predictable manner.” under the percentage option, the scale of the fed’s balance-sheet reduction “will fluctuate significantly” from month-to-month. don't worry - *bernanke: i'm "quite calm" about plan to shrink balance sheet *  *  * the fomc word count continues to slide... the word count fell 4 from march to 517 full redline below: tips: tips [ at ] zerohedge.com general: info [ at ] zerohedge.com legal: legal [ at ] zerohedge.com advertising: ads [ at ] zerohedge.com abuse/complaints: abuse [ at ] zerohedge.com advertise with us make sure to read our " how to [read/tip off] zero hedge without attracting the interest of [human resources/the treasury/black helicopters] " guide it would be very wise of you to study our disclaimer , our privacy policy and our (non)policy on conflicts / full disclosure . here's our cookie policy . how to report offensive comments notice on racial discrimination .
+
+sentence:having perfectly top-ticked us economic data with its march rate-hike
+========================================
+entity:economic  central#econ
+sentiment:hike  @#up
+
+sentence: the fed offered no explanation for the fact that they hiked rates during a quarter that saw just 0.7% gdp growth - the weakest quarter for a rate hike since 1980 ... since the fed hiked rates in march
+========================================
+entity:rate  central#rate
+sentiment:hike  @#up
+
+sentence: stocks are unchanged and banks have been battered... it is perhaps noteworthy that the fed rate hike in march was the absolute top-tick in post-trump us economic data - the collapse since then has been anything but 'transitory'... federal reserve officials have suggested it will probably be appropriate to begin unwinding the central bank’s $4.5 trillion balance sheet later this year
+========================================
+entity:rate  central#rate
+sentiment:hike  @#up
+
+sentence: but that guidance is premised in part on projections that they will be able to raise interest rates twice more before the year is out.
+========================================
+entity:rates  central#rate
+sentiment:raise  @#up
+
+sentence:june rate hike odds continue to hover near 70% (despite economic data's collapse)... but the market remains notably less hawkish than the fed... all eyes are on any commentary with regard the fed balance sheet... and don't forget
+========================================
+entity:rate  central#rate
+sentiment:hike  @#up
+
+sentence:don't worry - *bernanke: i'm "quite calm" about plan to shrink balance sheet *  *  * the fomc word count continues to slide... the word count fell 4 from march to 517 full redline below: tips: tips [ at ] zerohedge.com general: info [ at ] zerohedge.com legal: legal [ at ] zerohedge.com advertising: ads [ at ] zerohedge.com abuse/complaints: abuse [ at ] zerohedge.com advertise with us make sure to read our " how to [read/tip off] zero hedge without attracting the interest of [human resources/the treasury/black helicopters] " guide it would be very wise of you to study our disclaimer
+========================================
+entity:fomc  central#us
+sentiment:slide  @#down

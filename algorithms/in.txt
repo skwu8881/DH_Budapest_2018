@@ -1,56 +1,183 @@
-(CNN)Remember that huge back tattoo Ben Affleck said was fake?
+Stack Overflow.NameWithoutStackExchange
+Questions
+Developer Jobs
+Tags
+Users
 
-Apparently not so much.
-The "Justice League" star was recently photographed shirtless and the colorful phoenix in flight was on full display.
-In 2016 Affleck told "Extra" the tat was "fake for a movie."
-"I actually do have a number of tattoos, but I try to have them in places where you don't have to do a lot of cover up." he said. "They get sort of addictive, tattoos, after awhile."
-Naturally the internet had a field day.
-"Next time you're feeling sad, remember that you're not Ben Affleck so you (probably) don't have a tattoo so big and so ugly and so universally ridiculed that you had to lie and say it was only temporary and just for a movie when it is so clearly not," one person tweeted.
-View image on Twitter
-View image on Twitter
+Search…
  
-Crystal Methanny
-@RafiDAngelo
-Next time you're feeling sad, remember that you're not Ben Affleck so you (probably) don't have a tattoo so big and so ugly and so universally ridiculed that you had to lie and say it was only temporary and just for a movie when it is so clearly not. (http://people.com/movies/ben-affleck-shows-off-back-tattoo-after-claiming-fake/ �K)
 
-11:54 PM - Mar 18, 2018
-283
-86 people are talking about this
-Twitter Ads info and privacy
-17 Mar
+12
+●5
+The results are in! See the 2018 Developer Survey results. »
+Why the inline string block in Ruby is named “eos”? [closed]
+Ask Question
 
-Sarah
-@Cinesnark
-Replying to @Cinesnark
-Every time Ben Affleck pops up in this instantly iconic photo set pic.twitter.com/LSFVWuP5Z9
+up vote
+25
+down vote
+favorite
+2
+Why the inline string block in Ruby is named "eos"?
+
+Update
+
+Thank you for denoting the right way. I always thought that "eos" is a reserved word, but it seems that any word may be used:
+
+a = <<MYSTRING
+line 1
+line 2
+mystring #the thing is case sensitive
+line3
+MYSTRING
+#Now really the end of string
+I also got to know that this construction is named Heredoc
+
+This question showed me that even the silliest questions may teach something.
+
+ruby syntax
+shareedit
+edited Mar 6 '15 at 17:38
+
+Martijn Pieters♦
+630k10820421990
+asked Feb 15 '13 at 11:29
+
+Paul
+9,2292684167
+closed as off-topic by Martijn Pieters♦, BradleyDotNET, Deduplicator, Kevin, davidism Mar 6 '15 at 19:48
+This question does not appear to be about programming within the scope defined in the help center.
+If this question can be reworded to fit the rules in the help center, please edit the question.
+2
+This is not correct. Heredoc syntax lets you use any identifier. EOS is just an example of such identifiers – SirDarius Feb 15 '13 at 11:33
+4
+I'm voting to close this question as off-topic because this question is not about a practical programming problem, as laid out in the help center. – Martijn Pieters♦ Mar 6 '15 at 17:38
+add a comment
+1 Answer
+active oldest votes
+up vote
+25
+down vote
+accepted
+EOS means end of string. it is displayed at the end of the string.
+
+EOS means more than GFJKDHAGJHFGDJ for example.
+
+But you can use other names, too.
+
+shareedit
+edited Sep 22 '15 at 22:49
+
+Aaron
+5,43322546
+answered Feb 15 '13 at 11:56
+
+User
+9,85612040
+2
+Amazing! I never knew about that thinking that "eos" is a reserved word. So, this construction is named "Heredoc". I'll remember that. – Paul Feb 15 '13 at 12:12
+add a comment
+Not the answer you're looking for? Browse other questions tagged ruby syntax or ask your own question.
+asked
+
+5 years, 1 month ago
+
+viewed
+
+10,351 times
+
+active
+
+2 years, 5 months ago
+
+UPCOMING EVENTS
+2018 Community Moderator Election
+ends in 8 days
+
+FEATURED ON META
+Ch-ch-ch-changes: Left nav, responsive design, & themes
+Coming Soon: Stack Overflow For Teams!
+2018 Moderator Election Q&A - Questionnaire
+HOT META POSTS
+48 Photo of sourcecode as an answer
+Work from anywhere
+REMOTE Senior Dev Ruby on Rails (JAPAN Meet Up)
+CashCowPro Inc.No office location
+$50K - $120KREMOTE
+rubyruby-on-rails
+Senior Ruby Engineer
+Kyero.comNo office location
+€64K - €84KREMOTE
+rubyruby-on-rails
+Solutions Architect - Ruby/Python/React
+Analytics FireNo office location
+REMOTE
+rubypython
+Full Stack Engineer (Ruby)- Swiftype
+ElasticNo office location
+REMOTE
+rubyruby-on-rails
+Work remotely - from home or wherever you choose.
+
+Browse remote jobs
+Related
+647
+How to generate a random string in Ruby
+903
+A concise explanation of nil v. empty v. blank in Ruby on Rails
+1752
+How to write a switch statement in Ruby?
+924
+How to convert a string to lower or upper case in Ruby
+264
+What does Ruby have that Python doesn't, and vice versa?
+1045
+Check if a value exists in an array in Ruby
+819
+What is attr_accessor in Ruby?
+1365
+Why does ++[[]][+[]]+[+[]] return the string “10”?
+768
+Why is it bad style to `rescue Exception => e` in Ruby?
+166
+Breaking up long strings on multiple lines in Ruby without stripping newlines
+Hot Network Questions
+How do you say you are a nosey person in Korean?
+What is the proper use of initiative for a cautious encounter?
+No A, just CAPS LOCK
+How to establish a collaboration with other researcher?
+If I drop a ball in an accelerating rocket, will it bounce? If so, how?
+more hot questions
+STACK OVERFLOW
+Questions
+Jobs
+Developer Jobs Directory
+Salary Calculator
+Help
+Mobile
+STACK OVERFLOW
+BUSINESS
+Talent
+Ads
+Enterprise
+COMPANY
+About
+Press
+Work Here
+Legal
+Privacy Policy
+Contact Us
+STACK EXCHANGE
+NETWORK
+Technology
+Life / Arts
+Culture / Recreation
+Science
+Other
+Blog
+Facebook
+Twitter
+LinkedIn
+site design / logo © 2018 Stack Exchange Inc; user contributions licensed under cc by-sa 3.0 with attribution required. rev 2018.3.19.29483
 
  
-Sarah
-@Cinesnark
-Ben Affleck: The phoenix tattoo is fake for a movie.
-
-Also Ben Affleck: pic.twitter.com/k97oa0ld12
-
-4:00 AM - Mar 17, 2018
-View image on Twitter
-37
-15 people are talking about this
-Twitter Ads info and privacy
-View image on Twitter
-View image on Twitter
- 
-Eva Palmer
-@Eva_Palmer
-Sarah Jessica Parker liking this Instagram post about Ben Affleck��s awful back tattoo is the funniest thing I have seen in 2018.
-
-1:09 AM - Mar 19, 2018
-21
-See Eva Palmer's other Tweets
-Twitter Ads info and privacy
-The tattoo has also earned a thumbs down from some people closer to Affleck.
-Former fiancee Jennifer Lopez was asked about it two years ago during an appearance on "Watch What Happens Live with Andy Cohen."
-"It's awful, what are you doing," Lopez said at the time. "His tattoos always have too many colors. They shouldn't be so colorful."
-
-Around the same time Jennifer Garner discussed it in a Vanity Fair article after she and Affleck announced their marriage was over.
-The actress told the magazine "You know what we would say in my hometown about that? 'Bless his heart.' "
-"A phoenix rising from the ashes," Garner said. "Am I the ashes in this scenario? I take umbrage. I refuse to be the ashes."

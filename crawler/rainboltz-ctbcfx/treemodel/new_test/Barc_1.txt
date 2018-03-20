@@ -1,0 +1,182 @@
+	
+May FOMC minutes: Appropriate to take another step in removing accommodation ¡§soon¡¨
+The minutes to the May FOMC meeting were in line with our expectations and the message delivered in the May statement.
+Namely, we see that most FOMC participants viewed any slowing in activity and inflation as driven by transitory factors.
+We believe the outlook, if realized, would justify further policy rate increases with the next rate hike coming in June.
+Labor markets improved; GDP slowing is transitory.
+Both Fed staff and FOMC participants held similar views of the incoming data flow as well as the economic outlook.
+Both saw the labor market as having improved, on balance, even as real GDP slowed in Q1.
+The weaker March employment figure was viewed as being held down by weather, as warmer temperatures early in the year may have brought hiring forward and adverse weather in other parts of the country constrained hiring.
+While personal consumption had slowed, most seemed willing to attribute its softness to weather-related factors that held down spending on utilities and residual seasonality issues that reduced measured growth.
+Incoming data in March, plus the overall view that labor markets remain healthy, led most of the committee to expect consumption to rebound in the coming quarter.
+Risks to the outlook were characterized as balanced, with some citing downside risk from the global outlook ¡V and geopolitics, in particular ¡V and the potential that emerging market economies may not perform well during a policy normalization cycle.
+In the other direction, upside risk came from US fiscal policy.
+Inflation softness not a major concern (yet).
+We are not surprised by the Fed¡¦s willingness to dismiss the slowdown in activity as driven by transitory factors in light of the fact that Q1 activity has repeatedly been softer than remaining quarters during the recovery.
+That said, we were keen to see how the FOMC dealt with the surprisingly weak March CPI report.
+There, the committee pointed to wireless service pricing as injecting idiosyncratic weakness into inflation and ¡§most participants¡¨ viewed the recent inflation data as ¡§primarily reflecting transitory factors.¡¨ Only ¡§a few¡¨ participants expressed concern that that progress toward the inflation mandate may have slowed.
+We find it interesting that the committee generally sees risk to inflation as balanced.
+A ¡§couple¡¨ participants see falling unemployment rates and tighter labor markets as injecting upside risk to inflation while a ¡§several others¡¨ see inflation risks as tilted to the downside.
+Incoming data since the Fed met in May has likely only intensified this split as the unemployment rate fell further and CPI inflation was below expectations again in April.
+Normalization to continue, including a proposal for gradual and predictable balance sheet runoff.
+Altogether, the majority of the committee seems inclined to view the slowing in activity and inflation as transitory and, in light of further improvement in labor markets and the outlook, and believes further normalization of policy remains appropriate.
+In our view, the Fed will raise the target range for the federal funds rate by 25bp at the June meeting and the May minutes indicate further tightening in September remains the Fed¡¦s base case (and ours).
+The minutes state that the committee is likely to ¡§provide additional details about the operational plan to reduce the Federal Reserve¡¦s securities holdings over time¡¨ relatively soon.
+We believe this information is likely to come at the June meeting, either in the press conference or in the minutes.
+We also note that the minutes say, ¡§[n]early all policymakers indicated that as long as the economy and the path of the federal funds rate evolved as currently expected, it likely would be appropriate to begin reducing the Federal Reserve¡¦s securities holdings this year.¡¨ We interpret this as consistent with our view that the Fed is likely to raise rates two more times, in June and September, and proceed to balance sheet runoff in Q4.
+That said, the language could also be interpreted as a hike in June, balance sheet runoff in September, followed by another rate increase in December.
+Board staff presented a ¡§possible operational approach¡¨ to reducing the Fed¡¦s securities holdings.
+The staff proposed that the committee pre-announced limits of how many Treasury and agency securities would be allowed to run off on a monthly basis.
+Over time, and presuming incoming data were consistent with the outlook, the Fed would gradually increase these monthly runoff amounts, or caps.
+As the cap increased, reinvested securities would decline, as would excess reserves.
+Staff proposed that the monthly caps would begin at low levels and would be raised every three months over a set period of time to their fully phased-in levels.
+At that point, the Fed would maintain that runoff pace until the balance sheet was returned to normal levels.
+¡§Nearly all¡¨ FOMC participants ¡§expressed a favorable view of this general approach.¡¨ This is in line with our view that the Fed would be more likely to announce runoff amounts over a certain time horizon (e.g., $bn/month pr $bn/quarter) rather than articulate a reinvestment rate in percentage terms.
+
+sentence: we see that most fomc participants viewed any slowing in activity and inflation as driven by transitory factors.
+========================================
+market:us
+entity:inflation  central#inflation
+sentiment:slowing  @#bad
+
+sentence: would justify further policy rate increases with the next rate hike coming in june.
+========================================
+market:us
+entity:policy rate  central#rate
+sentiment:increases  @#up
+========================================
+market:us
+entity:policy rate  central#rate
+sentiment:hike  @#up
+
+sentence:labor markets improved; gdp slowing is transitory.
+========================================
+market:us
+entity:labor  central#labour
+sentiment:improved  @#good
+========================================
+market:us
+entity:labor  central#labour
+sentiment:slowing  @#bad
+========================================
+market:us
+entity:gdp  central#gdp
+sentiment:slowing  @#bad
+
+sentence:both fed staff and fomc participants held similar views of the incoming data flow as well as the economic outlook.
+========================================
+market:us
+entity:outlook  central#econ
+sentiment:as well as  @#nothing
+========================================
+market:us
+entity:economic  central#econ
+sentiment:as well as  @#nothing
+
+sentence:both saw the labor market as having improved
+========================================
+market:us
+entity:labor  central#labour
+sentiment:improved  @#good
+
+sentence:the weaker march employment figure was viewed as being held down by weather
+========================================
+market:us
+entity:employment  central#employ
+sentiment:weaker  @#bad
+
+sentence: plus the overall view that labor markets remain healthy
+========================================
+market:us
+entity:labor  central#labour
+sentiment:healthy  @#good
+
+sentence: with some citing downside risk from the global outlook ¡V and geopolitics
+========================================
+market:us
+entity:outlook  central#econ
+sentiment:downside risk  @#uncer@#down
+
+sentence: in particular ¡V and the potential that emerging market economies may not perform well during a policy normalization cycle.
+========================================
+market:us
+entity:market economies  central#econ
+sentiment:well  @#good
+
+sentence:inflation softness not a major concern (yet).
+========================================
+type: negation
+removed entity-sentiment: inflation-@#neutral
+========================================
+type: negation
+removed sentence-sentiment: inflation-@#neutral
+
+sentence: we were keen to see how the fomc dealt with the surprisingly weak march cpi report.
+========================================
+market:us
+entity:cpi  central#cpi
+sentiment:weak  @#bad
+
+sentence:a ¡§couple¡¨ participants see falling unemployment rates and tighter labor markets as injecting upside risk to inflation while a ¡§several others¡¨ see inflation risks as tilted to the downside.
+========================================
+market:us
+entity:rates  central#rate
+sentiment:falling  @#down
+========================================
+market:us
+entity:rates  central#rate
+sentiment:tighter  @#good
+========================================
+market:us
+entity:unemployment  central#unemploy
+sentiment:falling  @#down
+========================================
+market:us
+entity:unemployment  central#unemploy
+sentiment:tighter  @#good
+========================================
+market:us
+entity:unemployment  central#unemploy
+sentiment:upside risk  @#uncer@#up
+========================================
+market:us
+entity:labor  central#labour
+sentiment:falling  @#down
+========================================
+market:us
+entity:labor  central#labour
+sentiment:tighter  @#good
+========================================
+market:us
+entity:labor  central#labour
+sentiment:upside risk  @#uncer@#up
+========================================
+market:us
+entity:inflation  central#inflation
+sentiment:tighter  @#good
+========================================
+market:us
+entity:inflation  central#inflation
+sentiment:upside risk  @#uncer@#up
+
+sentence:incoming data since the fed met in may has likely only intensified this split as the unemployment rate fell further and cpi inflation was below expectations again in april.
+========================================
+market:us
+entity:unemployment rate  central#unemploy
+sentiment:fell  @#down
+========================================
+market:us
+entity:inflation  central#inflation
+sentiment:fell  @#down
+
+sentence:we interpret this as consistent with our view that the fed is likely to raise rates two more times
+========================================
+market:us
+entity:rates  central#rate
+sentiment:raise  @#up
+
+sentence: followed by another rate increase in december.
+========================================
+market:us
+entity:rate  central#rate
+sentiment:increase  @#up

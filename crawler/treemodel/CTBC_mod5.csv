@@ -1,0 +1,276 @@
+word,entity
+as well,@#nothing
+as well as,@#nothing
+at risk,@#bad
+Bearish,@#bad
+bleak,@#bad
+decline,@#bad
+declines,@#bad
+declined,@#bad
+lower than expected,@#bad
+devaluation,@#bad
+devalue,@#bad
+dislike,@#bad
+engulfing,@#bad
+fragile,@#bad
+low,@#low
+great recession,@#bad
+hard landing,@#bad
+hate,@#bad
+bear,@#bad
+negative,@#bad
+not well,@#bad
+passive,@#bad
+ran out of demand,@#bad
+recession,@#bad
+run out of demand,@#bad
+running out of demand,@#bad
+selling,@#bad
+shortage,@#bad
+slack,@#bad
+slow,@#bad
+slowdown,@#bad
+slowed,@#bad
+slowing,@#bad
+softer,@#bad
+turmoil,@#bad
+weak,@#bad
+weaker,@#bad
+cut,@#down
+decrease,@#down
+decreased,@#down
+decreasing,@#down
+decreasing,@#down
+depreciate,@#down
+depreciation,@#down
+downswing,@#down
+downward,@#down
+drawdown,@#down
+fall,@#down
+falling,@#down
+fell,@#down
+gap down,@#down
+go down,@#down
+going down,@#down
+lower,@#down
+move down,@#down
+slide,@#down
+sliding,@#down
+slip,@#down
+subdued,@#down
+went down,@#down
+aggressive,@#good
+better than expect,@#good
+Bullish,@#good
+bull,@#good
+buying,@#good
+excess,@#good
+favor,@#good
+healthy,@#good
+confidence in,@#good
+high,@#high
+good,@#good
+improve,@#good
+improved,@#good
+improving,@#good
+interest,@#good
+love,@#good
+mature,@#good
+recovering,@#good
+recovered,@#good
+positive,@#good
+prefer,@#good
+ran out of supply,@#good
+rebound,@#good
+recovery,@#good
+resilient,@#good
+robust,@#good
+run out of supply,@#good
+running out of supply,@#good
+stable,@#good
+strong,@#good
+strong growth,@#good
+stronger than expected,@#good
+surplus,@#good
+tight,@#good
+tighter,@#good
+well,@#good
+as expected,@#neutral
+hold,@#neutral
+moving randomly,@#neutral
+softness,@#neutral
+steady,@#neutral
+unchange,@#neutral
+unchnaged,@#neutral
+uncertainty,@#uncer
+downside risk,@#uncer@#down
+upside risk,@#uncer@#up
+appreciate,@#up
+appreciation,@#up
+gained,@#up
+gap up,@#up
+go up,@#up
+going up,@#up
+grew,@#up
+grow,@#up
+grown,@#up
+higher,@#up
+hike,@#up
+increase,@#up
+increases,@#up
+increased,@#up
+increasing,@#up
+jump,@#up
+move up,@#up
+raise,@#up
+rise,@#up
+rising,@#up
+risen,@#up
+rose,@#up
+upswing,@#up
+went up,@#up
+account balance,central#balance
+balance sheet,central#balance
+large balance sheet,central#balance
+bond purchase,central#bond
+BALANCE OF TRADE,central#bot
+trade balance,central#bot
+exchange rates,central#ex_rate
+exchange rate,central#ex_rate
+commodity,central#commodity
+commodity price,central#commodity
+energy,central#commodity
+food prices,central#commodity
+gold,central#commodity
+Goods,central#commodity
+oil,central#commodity
+personal consumption,central#consump
+consumer prices,central#cpi
+consumer price index,central#cpi
+Core CPI,central#cpi
+CPI,central#cpi
+consumer debt,central#debt
+debt,central#debt
+debt driven,central#debt
+debt overhang,central#debt
+deflation,central#deflat
+Dovish,central#dovish
+tighten,central#down
+accommodative financial conditions,central#econ
+economic,central#econ
+economic activity,central#econ
+economic growth,central#econ
+economic policy,central#econ
+economics,central#econ
+economy,central#econ
+financial developments,central#econ
+global economic,central#econ
+growth,central#econ
+market economies,central#econ
+outlook,central#econ
+real economy,central#econ
+sustainable growth,central#econ
+Employee,central#employ
+employment,central#employ
+employment rate,central#employ
+income,central#employ
+job,central#employ
+maximum employment,central#employ
+NFP,central#employ
+non-farm payroll,central#employ
+salaries,central#employ
+salary,central#employ
+wage,central#employ
+equity,central#equity
+Exchange rate policy,central#exchange
+FX intervention,central#exchange
+NEER,central#exchange
+REER,central#exchange
+Financial crisis,central#fincri
+Fiscal,central#fiscalp
+fiscal policy,central#fiscalp
+GDP,central#gdp
+GOP,central#gdp
+real GDP,central#gdp
+Hawkish,central#hawkish
+core inflation,central#inflation
+expected inflation,central#inflation
+flexible inflation,central#inflation
+headline inflation,central#inflation
+Inflation,central#inflation
+inflation expectation,central#inflation
+inflation pressures,central#inflation
+Inflation rate,central#inflation
+inflation target,central#inflation
+inflation trends,central#inflation
+inflation variables,central#inflation
+inflationary,central#inflation
+price stability,central#inflation
+stabilising inflation,central#inflation
+stable inflation,central#inflation
+target inflation,central#inflation
+labor,central#labour
+Labour,central#labour
+labour market,central#labour
+labour productivity,central#labour
+labour stats,central#labour
+wage growth,central#labour
+boost,central#moneyp
+effective tool,central#moneyp
+monetary policy,central#moneyp
+money supply,central#moneyp
+open market operation,central#moneyp
+Open market purchases,central#moneyp
+Open market sales,central#moneyp
+stimulate,central#moneyp
+stimulus,central#moneyp
+unchanged,@#neutral
+pmi,central#pmi
+Ease,central#qe
+easing,central#qe
+further easing measures,central#qe
+QE,central#qe
+QQE,central#qe
+quantitative easing,central#qe
+unconventional method,central#qe
+deposit rate,central#rate
+discount rate,central#rate
+effective rate,central#rate
+interest rate,central#rate
+long rate,central#rate
+overnight interest rate,central#rate
+policy rate,central#rate
+policy rates,central#rate
+Prime rate,central#rate
+interest rates,central#rate
+rate,central#rate
+rate decision,central#rate
+rates,central#rate
+short rate,central#rate
+target rate,central#rate
+retail sales,central#retail
+risk,central#risk
+Stock,central#stock
+long term,central#term
+tax rate,central#term
+libor risk,central#term
+saving rate,central#term
+Money Markets,central#term
+short term,central#term
+zero lower bound,central#term
+Speculation,central#term
+treasury,central#treasury
+US Treasury,central#treasury
+UST,central#treasury
+TWIST,central#twist
+unemployee,central#unemploy
+unemployment rate,central#unemploy
+underemployment,central#unemploy
+unemployment,central#unemploy
+bond yield,central#yeild
+bond yields,central#yeild
+debt yield,central#yeild
+high yield,central#yeild
+treasury yield,central#yeild
+yield,central#yeild
+yield curve,central#yeild

@@ -1,0 +1,101 @@
+word,entity
+US Treasury yield,##yield
+US yield,##yield
+Treasury yield,##yield
+Yield,##yield
+Rate,##rate
+US rate,##rate
+USD strength,@#sell
+USD weakness,@#buy
+Beta,##keyword
+life insurance,##keyword
+foreign debt,##keyword
+invest,##keyword
+investment,##keyword
+foreign bond holdings,##keyword
+bullish,@#good
+bull,@#good
+bear,@#bad
+bearish,@#bad
+top,##keyword
+down,##keyword
+topside,##keyword
+downside,##keyword
+risk,##keyword
+broken,@#bad
+critical,##keyword
+pivot,##keyword
+exposure,##keyword
+rally,##keyword
+rallying,##keyword
+rallied,##keyword
+equity market,##equity
+outperforming,@#good
+outperform,@#good
+Underperforming,@#bad
+Underperform,@#bad
+risk appetite,##keyword
+Topix,##keyword
+Consolidate,##keyword
+catalyst,##keyword
+core long,@#buy
+core short,@#sell
+long,@#buy
+short,@#sell
+potential,##keyword
+trigger,##keyword
+momentum,##keyword
+Japanese stock markets,##equity
+remain firm,@#good
+firm,@#good
+stock rally,##keyword
+risk-on,@#riskon
+risk-off,@#riskoff
+sentiment,##keyword
+pension fund,##keyword
+life insurer,##keyword
+institutional investor,##keyword
+driving force,##keyword
+uptrend,@#up
+downtrend,@#down
+tactical,##keyword
+buying,@#buy
+selling,@#sell
+profit-taking,@#sent
+stopped out,@#sent
+out,##keyword
+strategic,##keyword
+position,##keyword
+position holding,@#keyword
+accommodative monetary policy,##keyword
+hovered,##keyword
+dollar direction,##keyword
+trading,##keyword
+trade,##keyword
+Positive,@#good
+Negative,@#bad
+Push,##keyword
+gap,##keyword
+Headline,##keyword
+macro,##keyword
+correlation,##keyword
+technical,##keyword
+inflation,##inflation
+notable,##keyword
+significantly,@#sent
+driver,##keyword
+below,@#sent
+above,@#sent
+jumped,##keyword
+short term,##keyword
+Medium term,##keyword
+Level,##keyword
+prefer,##keyword
+double top,##keyword
+bid,@#sent
+offer,@#sent
+heavily,@#sent
+heavy,@#sent
+buyer,##keyword
+seller,##keyword
+intact,##keyword

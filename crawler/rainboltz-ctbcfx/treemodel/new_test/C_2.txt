@@ -1,0 +1,32 @@
+CitiFX Wire Market Commentary - FXLM - Intended for Institutional clients only
+
+G10 Spot Summary - Central bank heavy week
+
+Today's data calendar is a very quiet start to an otherwise quite busy week with a particular focus on central bank events.
+The calendar has five central bank rate decisions scheduled , with the FOMC rate decision, the BoE, The BoJ, the SNB and the Norgesbank all likely to be driving the market's focus.
+The FOMC hike on Wednesday is more or less deemed to be a certainty but much of the market and the real focus will now be on the shifts to forecasts going forward.
+We will be looking for the moves higher in the dots where some of the more neutral/dovish two hike forecasts may be moved higher and some of the three hike dots may be moved to four and see pricing for June increase.
+For now though with March seen as being mostly priced there is little reward for holding USD ahead of the event and we have seen a broad based G10 squeeze of USD positions already to start this week.
+Another key theme to watch is the continued murmurings of hawkishness out of the ECB after Friday's headlines that a raising of interest rates were discussed, Draghi is speaking in Frankfurt today and we will be monitoring for further indications.
+One interesting phenomenon in the Antipodeans space is the possible slowdown in seasonality effects.
+The February and March period is historically a good period for Aussie and may be a contributing factor to why we have not seen Aussie depreciating as notably during stronger dollar periods like we have seen from NZD and CAD.
+The driver for this was seen to be corporate seasonality, dividend redemptions and repatriation flows and our corporate sales team are of the opinion that the majority of these flows has already passed.
+Should this be the case then it may not be unreasonable to see a less robust Aussie going forward and should the FOMC surprise to the hawkish side then we may see a more compelling break below the key moving averages in AUDUSD at 0.7534 (55 & 200 dMA and 0.7508 100dMA).
+Author : Samuel Underwood - CitiFX Trading
+Published by: CitiFX Wire
+13 Mar 2017
+Contact: CitiFXWire@citi.com
+
+sentence:we will be looking for the moves higher in the dots where some of the more neutral/dovish two hike forecasts may be moved higher and some of the three hike dots may be moved to four and see pricing for june increase.
+========================================
+market:us
+entity:dovish  central#dovish
+sentiment:higher  @#up
+========================================
+market:us
+entity:dovish  central#dovish
+sentiment:hike  @#up
+========================================
+market:us
+entity:dovish  central#dovish
+sentiment:higher  @#up

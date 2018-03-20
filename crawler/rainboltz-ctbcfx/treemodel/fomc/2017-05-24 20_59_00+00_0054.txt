@@ -1,0 +1,18 @@
+Stocks Surge As VIX Crushed To 9-Handle Despite Fed Warning Of "Risks To Financial Stability"
+2017-05-24 20:59:00+00:00
+it's crazy pills time again... post-fomc minutes, eveything was bid... so the fed said this... "asset valuation pressures in some markets were notable... vulnerabilities appeared to have increased for asset valuation pressures.. a sharp decline in such valuations could pose risks to financial stability," and investors did this...nasdaq record highs, s&p record close... which lifted the s&p and dow green post-trump-dump... vix was crushed back to a 9-handle to get ensure the s&p held above 2400... the s&p 500 etf (spy) set a 2017 volume low for the second day in a row... it seems noone wants to talk about the flash crash in russell 2000 this morning... today's rally lifts the dow into the green for may (for now)... the dollar fell to a fresh low for the session after the minutes of the federal open market committee’s may meeting showed that “a few” participants expressed concern that progress on inflation might have slowed. fomc participants generally judged that it would be prudent to await more evidence that weaker economic data was “transitory” before further removing accommodation. does that look transitory? u.s. treasuries rose after the release of the minutes while the greenback tumbled. fed funds futures continued to price around 80 percent odds of a june rate increase. the entire tsy curve dropped today, almost erasing yesterday's spike... the dollar drop pushed it red on the week led by cad strength (boc comments)... despite dollar weakness, wti and rbob could not catch a bid after weaker than expected product inventories (and rising production) sent prices lower... gold and silver both gained on the day... tips: tips [ at ] zerohedge.com general: info [ at ] zerohedge.com legal: legal [ at ] zerohedge.com advertising: ads [ at ] zerohedge.com abuse/complaints: abuse [ at ] zerohedge.com advertise with us make sure to read our " how to [read/tip off] zero hedge without attracting the interest of [human resources/the treasury/black helicopters] " guide it would be very wise of you to study our disclaimer , our privacy policy and our (non)policy on conflicts / full disclosure . here's our cookie policy . how to report offensive comments notice on racial discrimination .
+
+sentence: s&p record close... which lifted the s&p and dow green post-trump-dump... vix was crushed back to a 9-handle to get ensure the s&p held above 2400... the s&p 500 etf (spy) set a 2017 volume low for the second day in a row... it seems noone wants to talk about the flash crash in russell 2000 this morning... today's rally lifts the dow into the green for may (for now)... the dollar fell to a fresh low for the session after the minutes of the federal open market committee’s may meeting showed that “a few” participants expressed concern that progress on inflation might have slowed.
+========================================
+entity:inflation  central#inflat
+sentiment:slowed  @#bad
+
+sentence:fomc participants generally judged that it would be prudent to await more evidence that weaker economic data was “transitory” before further removing accommodation.
+========================================
+entity:economic  central#econ
+sentiment:weaker  @#bad
+
+sentence:fed funds futures continued to price around 80 percent odds of a june rate increase.
+========================================
+entity:rate  central#rate
+sentiment:increase  @#up

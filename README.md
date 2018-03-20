@@ -19,3 +19,7 @@ We propose a natural language processing real-time system to analyze text inform
 The system will help SSH researchers have over view from their documents. Then they can get important information from text quicker than without using any technical supporting.
 
 NER, NLP, Real-Time System, Sentiment Analysis, Text Mining, Data Visualization, NLTK Tree, Information Retrieval.
+
+- Reference Source Code
+
+  - [Text Analytics in the News](https://github.com/BBC-News-Labs/Text_Analytics)

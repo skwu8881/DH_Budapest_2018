@@ -1,4 +1,0 @@
-# ignore all -model & _result files
-*w2v_model/*
-*_result*
-

@@ -1,0 +1,6 @@
+pymysql
+pyquery
+pandas
+simple-date
+pytz
+configparser

@@ -1,0 +1,18 @@
+JPM Cuts 10Y Yield Forecasts "Significantly Lower" Due To Weaker Inflation Outlook
+2017-05-22 16:35:00+00:00
+just one day after goldman reluctantly cut its 2017 year end forecast on the 10y yield last friday from 3.00% to 2.75%, " reflecting some added uncertainty on the us macro outlook " while conceded that "bond bears", i.e., those clients who have listened to it, " have had a difficult 2017" it was jpmorgan's turn, and over the weekend jpm announced it was adjusting its us rate forecast "significantly lower", slashing its year end 10y yield target to 2.75% from 3%, reflecting “ a weaker outlook on core inflation and reduced expectations around tax reform and infrastructure spending.” in the note by jpm's jay barry, the bank also trimmed most other tenor forecasts by 15bp-35bp lower, saying that the inflation outlook “has changed markedly” over past month based on weakness in core cpi in march and april. jpm also said that  as for fiscal stimulus, odds are rising that it “gets pushed into fy18.” and also just like goldman, jpm tried to hedge adding that "even so, ust yields should rise in coming weeks,” because markets "continue to underprice the risk of further fed tightening,” and yields “have consistently risen” ahead of fomc meetings that include sep and press conference; also, treasuries “appear locally rich to other dm government bond markets.” finally, jpm maintains its recommendation to hold shorts in the 3-year sector and urges 10s30s flatteners, as the curve is ~3bp too steep adjusted for market’s medium-term fed and inflation expectations. meanwhile, the fed funds market continues to be blissfully disconnected from the recent sharp slowdown in us economic data surprises, which as noted previously has posted one of the biggest drops on record, and if the disappointment persists, it is not impossible that the fed will punts its june rate hike which the market now assumes is virtually assured. tips: tips [ at ] zerohedge.com general: info [ at ] zerohedge.com legal: legal [ at ] zerohedge.com advertising: ads [ at ] zerohedge.com abuse/complaints: abuse [ at ] zerohedge.com advertise with us make sure to read our " how to [read/tip off] zero hedge without attracting the interest of [human resources/the treasury/black helicopters] " guide it would be very wise of you to study our disclaimer , our privacy policy and our (non)policy on conflicts / full disclosure . here's our cookie policy . how to report offensive comments notice on racial discrimination .
+
+sentence: and over the weekend jpm announced it was adjusting its us rate forecast "significantly lower"
+========================================
+entity:rate  central#rate
+sentiment:lower  @#down
+
+sentence: reflecting “ a weaker outlook on core inflation and reduced expectations around tax reform and infrastructure spending.” in the note by jpm's jay barry
+========================================
+entity:core inflation  central#inflat
+sentiment:weaker  @#bad
+
+sentence: it is not impossible that the fed will punts its june rate hike which the market now assumes is virtually assured.
+========================================
+entity:fed  central#us
+sentiment:hike  @#up

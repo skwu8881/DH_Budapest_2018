@@ -1,0 +1,58 @@
+Wall Street's Take On The Fed Minutes: June, Sept. In Play; BS Unwind May Come Sooner
+2017-05-24 21:31:00+00:00
+while the dollar and tsy yields both dropped to session lows shortly after the fomc announcement hit as traders focused on the fed disclosure that fomc voters thought it prudent to await evidence an "economic slowdown is transitory" suggesting the committee still wanted to hike rates but was willing to wait for the certainty of data,  goldman's disagreed and according to a just released assessment by goldman's jan hatzius, the statement was more hawkish than perceived by the market. specifically, hatzius claims that the may fomc minutes mirrored the statement in "downplaying the weak q1 gdp print and the soft march inflation data, and also noted that most participants judged that “it would soon be appropriate” for the fomc to hike again." hatzius also pointed out what he highlighted earlier, namely that the minutes contained new information about the eventual process for phasing out reinvestment, which will likely occur by “preannouncing a schedule of gradually increasing caps to limit the amounts of securities that could run off in any given month.” as a result, goldman continues to see " an 80% probability of a rate hike at the june meeting and expect this to be followed by another rate hike in september and the announcement of balance sheet normalization at the december meeting. however, we see the risks to the timing of the balance sheet announcement as skewed toward the september meeting. " here are the key points from his note: main points: * * * elsewhere, citi economists issued a comparable note according to which the risk of a september balance sheet announcement has also been brought forward, relative to the baseline december expectation. "the fact that operational details are closer to being specified shows that the fomc could be ready to announce tapering of its balance sheet earlier than previously expected. this increases the risk of a september announcement relative to our current view for an announcement in december" said citi economist andrew hollenhorst. they also note that, like goldman's reading of the minutes, the fomc members see q1 weakness as transitory, and note that the statements on inflation. "on transitory q1 growth weakness: “members generally judged that it would be prudent to await additional evidence indicating that the recent slowing in the pace of economic activity had been transitory before taking another step in removing accommodation”. but also: “most participants judged that if economic information came in about in line with their expectations, it would soon be appropriate to take another step in removing some policy accommodation.” in our view, positive economic activity data since the meeting corroborate the view that q1 gdp weakness was transitory. this is consistent with our expectation that the fed will hike in june." furthermore, citi focuses on the read through from the recent weak inflation print. it says: on (1), “ most participants ” viewed recent softer inflation data as primarily reflecting transitory factors with a “few” expressing concerns that progress on the inflation mandate had slowed. on (2), a “ few ” participants continued to anticipate a substantial undershooting of the unemployment rate, and “several” point to the possibility for the need of a more rapid removal of accommodation, for instance, if the unemployment rate fell appreciably further, or if wages increased faster than expected, or if stimulative fiscal policy were enacted. according to hollenhorst these statements, even read in the context that inflation softened further and the unemployment rate fell since the meeting, appear to imply that unemployment rate undershoot is not a major concern while recent inflation softness is generally viewed as transitory. bottom line, citi read the may minutes as neutral with the "discussion around balance sheet reduction was the most interesting part with earlier-than-expected details of a general plan" and reiterates the bank's call remains for hikes in june and september with balance sheet reduction announced in december, although it may come as soon as september. * * * finally, here is stone mccarthy: tips: tips [ at ] zerohedge.com general: info [ at ] zerohedge.com legal: legal [ at ] zerohedge.com advertising: ads [ at ] zerohedge.com abuse/complaints: abuse [ at ] zerohedge.com advertise with us make sure to read our " how to [read/tip off] zero hedge without attracting the interest of [human resources/the treasury/black helicopters] " guide it would be very wise of you to study our disclaimer , our privacy policy and our (non)policy on conflicts / full disclosure . here's our cookie policy . how to report offensive comments notice on racial discrimination .
+
+sentence:while the dollar and tsy yields both dropped to session lows shortly after the fomc announcement hit as traders focused on the fed disclosure that fomc voters thought it prudent to await evidence an "economic slowdown is transitory" suggesting the committee still wanted to hike rates but was willing to wait for the certainty of data
+========================================
+entity:rates  central#rate
+sentiment:hike  @#up
+
+sentence: hatzius claims that the may fomc minutes mirrored the statement in "downplaying the weak q1 gdp print and the soft march inflation data
+========================================
+entity:gdp  central#gdp
+sentiment:weak  @#bad@#down
+
+sentence: and also noted that most participants judged that “it would soon be appropriate” for the fomc to hike again."
+========================================
+entity:fomc  central#us
+sentiment:hike  @#up
+
+sentence: goldman continues to see " an 80% probability of a rate hike at the june meeting and expect this to be followed by another rate hike in september and the announcement of balance sheet normalization at the december meeting.
+========================================
+entity:rate  central#rate
+sentiment:hike  @#up
+
+sentence: positive economic activity data since the meeting corroborate the view that q1 gdp weakness was transitory.
+========================================
+entity:economic  central#econ
+sentiment:positive  @#good
+
+sentence:this is consistent with our expectation that the fed will hike in june."
+========================================
+entity:fed  central#us
+sentiment:hike  @#up
+
+sentence: citi focuses on the read through from the recent weak inflation print.
+========================================
+entity:inflation  central#inflat
+sentiment:weak  @#bad@#down
+
+sentence: “ most participants ” viewed recent softer inflation data as primarily reflecting transitory factors with a “few” expressing concerns that progress on the inflation mandate had slowed.
+========================================
+entity:inflation  central#inflat
+sentiment:softer  @#bad
+
+sentence: if the unemployment rate fell appreciably further
+========================================
+entity:rate  central#rate
+sentiment:fell  @#down
+
+sentence: even read in the context that inflation softened further and the unemployment rate fell since the meeting
+========================================
+entity:inflation  central#inflat
+sentiment:fell  @#down
+
+sentence: appear to imply that unemployment rate undershoot is not a major concern while recent inflation softness is generally viewed as transitory.
+========================================
+entity:inflation  central#inflat
+sentiment:softness  @#neutral

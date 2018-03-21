@@ -16,9 +16,8 @@ using namespace std;
 
 class CDataBase {
 private:
-	int m_fileNum = 300;
 	int wordsNum[1000];
-	map<string, int> cnt[1000], total, mxCnt;
+	map<string, int>  mxCnt;
 	vector< pair<double, string> > v;
 	inline string fresh(string s) {
 		string s2;
@@ -44,6 +43,8 @@ private:
 		}
 	};
 public:
+	map<string, int> cnt[1000], total;
+	int m_fileNum = 300;
 	inline CDataBase() {
 		return;
 	}
@@ -106,7 +107,8 @@ public:
 		sort(v.begin(), v.end(), srt());
 		for (auto f : v) {
 			//cout << f.second << ' ' << f.first << endl;
-			fout << f.second << ' ' << f.first << endl;
+			
+			fout << f.second << ' ' << std::to_string(f.first) << endl;
 		}
 		fout.close();
 		return;

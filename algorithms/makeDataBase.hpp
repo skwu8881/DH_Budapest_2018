@@ -16,9 +16,9 @@ using namespace std;
 
 class CDataBase {
 private:
-	int m_fileNum = 100;
-	int wordsNum[100];
-	map<string, int> cnt[100], total;
+	int m_fileNum = 300;
+	int wordsNum[1000];
+	map<string, int> cnt[1000], total, mxCnt;
 	vector< pair<double, string> > v;
 	inline string fresh(string s) {
 		string s2;
@@ -70,6 +70,7 @@ public:
 				wordsNum[i]++;
 				total[s]++;
 				cnt[i][s]++;
+				mxCnt[s] = max(mxCnt[s], cnt[i][s]);
 			}
 			fin.close();
 		}
@@ -86,8 +87,9 @@ public:
 		
 		fout.open(outName.c_str(), ios::out | ios::app);
 		v.clear();
-		for (auto f : total)
-			v.push_back(make_pair(f.second, f.first));
+		for (auto f : total){
+			v.push_back(make_pair(mxCnt[f.first], f.first));
+		}
 		sort(v.begin(), v.end(), srt());
 		for (auto &f : v) {
 

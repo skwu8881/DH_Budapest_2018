@@ -7,7 +7,7 @@ int main() {
 	db->build();
 	CInputQuery *iq = new CInputQuery;
 
+	iq->readFile("./data/Report301.txt");
 	iq->askWeight(db);
-
 	return 0;
 }

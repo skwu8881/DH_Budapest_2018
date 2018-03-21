@@ -16,7 +16,7 @@ using namespace std;
 
 class CDataBase {
 private:
-	int wordsNum[1000];
+	int wordsNum;
 	map<string, int>  mxCnt;
 	vector< pair<double, string> > v;
 	inline string fresh(string s) {
@@ -46,6 +46,7 @@ public:
 	map<string, int> cnt[1000], total;
 	int m_fileNum = 300;
 	inline CDataBase() {
+		this -> wordsNum = 0;
 		return;
 	}
 	inline ~CDataBase() {
@@ -68,7 +69,7 @@ public:
 			while (fin >> s) {
 				s = fresh(s);
 				if (s.empty()) continue;
-				wordsNum[i]++;
+				wordsNum++;
 				total[s]++;
 				cnt[i][s]++;
 				mxCnt[s] = max(mxCnt[s], cnt[i][s]);
@@ -99,7 +100,7 @@ public:
 				if (cnt[j].find(f.second) != cnt[j].end()) appearTime++;
 
 			double tf, idf;
-			tf = (double)(f.first) / total.size();
+			tf = (double)(f.first) / wordsNum;
 			idf = log((double)(m_fileNum) / appearTime);
 			f.first = tf*idf*sqrt(idf);
 

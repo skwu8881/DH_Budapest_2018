@@ -17,7 +17,7 @@ using namespace std;
 class CDataBase {
 private:
 	int wordsNum;
-	map<string, int>  mxCnt;
+	map<string, int>  mxCnt,appearCnt;
 	vector< pair<double, string> > v;
 	inline string fresh(string s) {
 		string s2;
@@ -54,11 +54,14 @@ public:
 	}
 	inline void build() {
 		string outName = ".\\wordsWeight.txt";
-		string outName2 = ".\\wordstTimes.txt";
+		string outName2 = ".\\wordsTimes.txt";
+		string outName3 = ".\\appearTimes.txt";
 		fstream fout;
 		fout.open(outName,ios::out);
 		fout.close();
 		fout.open(outName2,ios::out);
+		fout.close();
+		fout.open(outName3, ios::out);
 		fout.close();
 
 		for (int i = 1; i <= m_fileNum; i++) {
@@ -69,6 +72,9 @@ public:
 			while (fin >> s) {
 				s = fresh(s);
 				if (s.empty()) continue;
+				if (cnt[i].find(s) == cnt[i].end()) {
+					appearCnt[s]++;
+				}
 				wordsNum++;
 				total[s]++;
 				cnt[i][s]++;
@@ -76,6 +82,11 @@ public:
 			}
 			fin.close();
 		}
+		fout.open(outName3.c_str(), ios::out | ios::app);
+		for (auto f : appearCnt) {
+			fout << f.first << ' ' << f.second<<endl;
+		}
+		fout.close();
 		fout.open(outName2.c_str(), ios::out | ios::app);
 		v.clear();
 		for (auto f : total) {

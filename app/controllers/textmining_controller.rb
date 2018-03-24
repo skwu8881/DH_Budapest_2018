@@ -5,9 +5,9 @@ class TextminingController < ApplicationController
   end
 
   def submit_article
-    File.open("algorithms/in.txt", "w") { |f| f.write(params[:article]) }
-    `python2 algorithms/TF_IDF.py`
-    s = File.open("algorithms/in2.txt").each_line.map(&:split).map { |s| s.join ?, } .join(?\n)
+    File.open("algorithms/input.txt", "w") { |f| f.write(params[:article]) }
+    `algorithms/query`
+    s = File.open("algorithms/resultWeight.txt").each_line.map(&:split).map { |s| s.join ?, } .join(?\n)
     File.open("public/flare.csv", 'w') { |f| f.write("id,value\n" + s) }
     respond_to do |f|
       f.json { render json: { responseText:

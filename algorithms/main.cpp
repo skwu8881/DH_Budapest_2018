@@ -7,7 +7,7 @@ int main() {
 	//db->build();
 	CInputQuery *iq = new CInputQuery;
 
-	iq->readFile("./input.txt");
+	iq->readFile("algorithms/input.txt");
 	iq->askWeight();
 	return 0;
 }

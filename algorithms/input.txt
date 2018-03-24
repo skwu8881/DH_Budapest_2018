@@ -1,1 +1,38 @@
-Airbus, one of the UK's biggest manufacturing employers, has warned it may have to stockpile parts to operate smoothly once the UK leaves the EU. Katherine Bennett, senior vice-president for Airbus UK, told the BBC it would have to decide very soon about "pressing the button" on stockpiling. "We spend �G5bn a year on the UK supply chain... it is really important the parts don't get held up in warehouses." Ms Bennett said the firm was in discussions with government. She told the BBC's Today programme that the firm operated a "just in time" supply chain, which meant that even a three-hour delay at Dover, for example, would be "a critical issue". "We need conditions right for us, we just don't need these burdens... which may make Airbus think differently [about its base]," she warned. Airbus builds its planes in four "home" countries across Europe. In the UK, it builds the wings for the  A400M military planes at Filton, near Bristol, and builds wings for the other Airbus planes at Broughton in North Wales. There have been recent press reports of plans for thousands of job cuts at the company. Airbus said it had a policy of "first addressing workforce issues with its social partners" before any public disclosure. In its statement, the company said it "deeply regrets that the process on the current subject matter has been disturbed by leaks to the media, which resulted in excessive reporting about alleged job cuts in its four home countries".         
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @b0w1d
+Sign out
+1
+0 1 pecu/DH_Budapest_2018
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
+DH_Budapest_2018/algorithms/
+Latest commit 6ee2746  2 days ago
+@guagua0201
+guagua0201 separate the query and data build.  …
+..		
+appearTimes.txt	separate the query and data build.	2 days ago
+input.txt	separate the query and data build.	2 days ago
+inputQuery.hpp	separate the query and data build.	2 days ago
+main.cpp	separate the query and data build.	2 days ago
+makeDataBase.hpp	separate the query and data build.	2 days ago
+resultWeight.txt	separate the query and data build.	2 days ago
+wordsWeight.txt	1. add query words weight	3 days ago
+wordstTimes.txt	update the tf-idf data base calculate	3 days ago
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
+Press h to open a hovercard with more details.

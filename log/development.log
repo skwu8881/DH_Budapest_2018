@@ -12668,3 +12668,113 @@ Processing by IntroController#index as HTML
 Completed 200 OK in 3005ms (Views: 2999.9ms)
 
 
+Started GET "/textmining.html" for 140.114.216.111 at 2018-03-24 13:36:04 +0800
+Cannot render console from 140.114.216.111! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TextminingController#index as HTML
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 17.6ms)
+
+
+Started POST "/textmining/submit_article" for 140.114.216.111 at 2018-03-24 13:36:06 +0800
+Cannot render console from 140.114.216.111! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TextminingController#submit_article as */*
+  Parameters: {"article"=>"a"}
+Started GET "/textmining.html?article=a" for 140.114.216.111 at 2018-03-24 13:36:06 +0800
+Cannot render console from 140.114.216.111! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TextminingController#index as HTML
+  Parameters: {"article"=>"a"}
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 12ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - algorithms/in2.txt):
+  
+app/controllers/textmining_controller.rb:10:in `initialize'
+app/controllers/textmining_controller.rb:10:in `open'
+app/controllers/textmining_controller.rb:10:in `submit_article'
+Completed 200 OK in 36ms (Views: 35.8ms)
+
+
+Started GET "/textmining.html" for 140.114.216.111 at 2018-03-24 13:41:28 +0800
+Cannot render console from 140.114.216.111! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TextminingController#index as HTML
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 19.6ms)
+
+
+Started POST "/textmining/submit_article" for 140.114.216.111 at 2018-03-24 13:41:34 +0800
+Cannot render console from 140.114.216.111! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TextminingController#submit_article as */*
+  Parameters: {"article"=>"Skip to content\nThis repository\nSearch\nPull requests\nIssues\nMarketplace\nExplore\n @b0w1d\nSign out\n1\n0 1 pecu/DH_Budapest_2018\n Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights\nDH_Budapest_2018/algorithms/\nLatest commit 6ee2746  2 days ago\n@guagua0201\nguagua0201 separate the query and data build.  …\n..\t\t\nappearTimes.txt\tseparate the query and data build.\t2 days ago\ninput.txt\tseparate the query and data build.\t2 days ago\ninputQuery.hpp\tseparate the query and data build.\t2 days ago\nmain.cpp\tseparate the query and data build.\t2 days ago\nmakeDataBase.hpp\tseparate the query and data build.\t2 days ago\nresultWeight.txt\tseparate the query and data build.\t2 days ago\nwordsWeight.txt\t1. add query words weight\t3 days ago\nwordstTimes.txt\tupdate the tf-idf data base calculate\t3 days ago\n© 2018 GitHub, Inc.\nTerms\nPrivacy\nSecurity\nStatus\nHelp\nContact GitHub\nAPI\nTraining\nShop\nBlog\nAbout\nPress h to open a hovercard with more details."}
+Completed 200 OK in 3ms (Views: 0.2ms)
+
+
+Started GET "/textmining.html?article=Skip%20to%20content%0AThis%20repository%0ASearch%0APull%20requests%0AIssues%0AMarketplace%0AExplore%0A%20%40b0w1d%0ASign%20out%0A1%0A0%201%20pecu%2FDH_Budapest_2018%0A%20Code%20%20Issues%200%20%20Pull%20requests%200%20%20Projects%200%20%20Wiki%20%20Insights%0ADH_Budapest_2018%2Falgorithms%2F%0ALatest%20commit%206ee2746%20%202%20days%20ago%0A%40guagua0201%0Aguagua0201%20separate%20the%20query%20and%20data%20build.%20%20%E2%80%A6%0A..%09%09%0AappearTimes.txt%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0Ainput.txt%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0AinputQuery.hpp%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0Amain.cpp%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0AmakeDataBase.hpp%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0AresultWeight.txt%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0AwordsWeight.txt%091.%20add%20query%20words%20weight%093%20days%20ago%0AwordstTimes.txt%09update%20the%20tf-idf%20data%20base%20calculate%093%20days%20ago%0A%C2%A9%202018%20GitHub%2C%20Inc.%0ATerms%0APrivacy%0ASecurity%0AStatus%0AHelp%0AContact%20GitHub%0AAPI%0ATraining%0AShop%0ABlog%0AAbout%0APress%20h%20to%20open%20a%20hovercard%20with%20more%20details." for 140.114.216.111 at 2018-03-24 13:41:34 +0800
+Cannot render console from 140.114.216.111! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TextminingController#index as HTML
+  Parameters: {"article"=>"Skip to content\nThis repository\nSearch\nPull requests\nIssues\nMarketplace\nExplore\n @b0w1d\nSign out\n1\n0 1 pecu/DH_Budapest_2018\n Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights\nDH_Budapest_2018/algorithms/\nLatest commit 6ee2746  2 days ago\n@guagua0201\nguagua0201 separate the query and data build.  …\n..\t\t\nappearTimes.txt\tseparate the query and data build.\t2 days ago\ninput.txt\tseparate the query and data build.\t2 days ago\ninputQuery.hpp\tseparate the query and data build.\t2 days ago\nmain.cpp\tseparate the query and data build.\t2 days ago\nmakeDataBase.hpp\tseparate the query and data build.\t2 days ago\nresultWeight.txt\tseparate the query and data build.\t2 days ago\nwordsWeight.txt\t1. add query words weight\t3 days ago\nwordstTimes.txt\tupdate the tf-idf data base calculate\t3 days ago\n© 2018 GitHub, Inc.\nTerms\nPrivacy\nSecurity\nStatus\nHelp\nContact GitHub\nAPI\nTraining\nShop\nBlog\nAbout\nPress h to open a hovercard with more details."}
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 12ms (Views: 11.5ms)
+
+
+Started POST "/textmining/submit_article" for 140.114.216.111 at 2018-03-24 13:42:19 +0800
+Cannot render console from 140.114.216.111! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TextminingController#submit_article as */*
+  Parameters: {"article"=>"Skip to content\nThis repository\nSearch\nPull requests\nIssues\nMarketplace\nExplore\n @b0w1d\nSign out\n1\n0 1 pecu/DH_Budapest_2018\n Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights\nDH_Budapest_2018/algorithms/\nLatest commit 6ee2746  2 days ago\n@guagua0201\nguagua0201 separate the query and data build.  …\n..\t\t\nappearTimes.txt\tseparate the query and data build.\t2 days ago\ninput.txt\tseparate the query and data build.\t2 days ago\ninputQuery.hpp\tseparate the query and data build.\t2 days ago\nmain.cpp\tseparate the query and data build.\t2 days ago\nmakeDataBase.hpp\tseparate the query and data build.\t2 days ago\nresultWeight.txt\tseparate the query and data build.\t2 days ago\nwordsWeight.txt\t1. add query words weight\t3 days ago\nwordstTimes.txt\tupdate the tf-idf data base calculate\t3 days ago\n© 2018 GitHub, Inc.\nTerms\nPrivacy\nSecurity\nStatus\nHelp\nContact GitHub\nAPI\nTraining\nShop\nBlog\nAbout\nPress h to open a hovercard with more details."}
+Completed 200 OK in 9ms (Views: 0.8ms)
+
+
+Started GET "/textmining.html?article=Skip%20to%20content%0AThis%20repository%0ASearch%0APull%20requests%0AIssues%0AMarketplace%0AExplore%0A%20%40b0w1d%0ASign%20out%0A1%0A0%201%20pecu%2FDH_Budapest_2018%0A%20Code%20%20Issues%200%20%20Pull%20requests%200%20%20Projects%200%20%20Wiki%20%20Insights%0ADH_Budapest_2018%2Falgorithms%2F%0ALatest%20commit%206ee2746%20%202%20days%20ago%0A%40guagua0201%0Aguagua0201%20separate%20the%20query%20and%20data%20build.%20%20%E2%80%A6%0A..%09%09%0AappearTimes.txt%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0Ainput.txt%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0AinputQuery.hpp%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0Amain.cpp%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0AmakeDataBase.hpp%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0AresultWeight.txt%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0AwordsWeight.txt%091.%20add%20query%20words%20weight%093%20days%20ago%0AwordstTimes.txt%09update%20the%20tf-idf%20data%20base%20calculate%093%20days%20ago%0A%C2%A9%202018%20GitHub%2C%20Inc.%0ATerms%0APrivacy%0ASecurity%0AStatus%0AHelp%0AContact%20GitHub%0AAPI%0ATraining%0AShop%0ABlog%0AAbout%0APress%20h%20to%20open%20a%20hovercard%20with%20more%20details." for 140.114.216.111 at 2018-03-24 13:42:19 +0800
+Cannot render console from 140.114.216.111! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TextminingController#index as HTML
+  Parameters: {"article"=>"Skip to content\nThis repository\nSearch\nPull requests\nIssues\nMarketplace\nExplore\n @b0w1d\nSign out\n1\n0 1 pecu/DH_Budapest_2018\n Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights\nDH_Budapest_2018/algorithms/\nLatest commit 6ee2746  2 days ago\n@guagua0201\nguagua0201 separate the query and data build.  …\n..\t\t\nappearTimes.txt\tseparate the query and data build.\t2 days ago\ninput.txt\tseparate the query and data build.\t2 days ago\ninputQuery.hpp\tseparate the query and data build.\t2 days ago\nmain.cpp\tseparate the query and data build.\t2 days ago\nmakeDataBase.hpp\tseparate the query and data build.\t2 days ago\nresultWeight.txt\tseparate the query and data build.\t2 days ago\nwordsWeight.txt\t1. add query words weight\t3 days ago\nwordstTimes.txt\tupdate the tf-idf data base calculate\t3 days ago\n© 2018 GitHub, Inc.\nTerms\nPrivacy\nSecurity\nStatus\nHelp\nContact GitHub\nAPI\nTraining\nShop\nBlog\nAbout\nPress h to open a hovercard with more details."}
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 20ms (Views: 18.6ms)
+
+
+Started POST "/textmining/submit_article" for 140.114.216.111 at 2018-03-24 13:43:36 +0800
+Cannot render console from 140.114.216.111! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TextminingController#submit_article as */*
+  Parameters: {"article"=>"Skip to content\nThis repository\nSearch\nPull requests\nIssues\nMarketplace\nExplore\n @b0w1d\nSign out\n1\n0 1 pecu/DH_Budapest_2018\n Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights\nDH_Budapest_2018/algorithms/\nLatest commit 6ee2746  2 days ago\n@guagua0201\nguagua0201 separate the query and data build.  …\n..\t\t\nappearTimes.txt\tseparate the query and data build.\t2 days ago\ninput.txt\tseparate the query and data build.\t2 days ago\ninputQuery.hpp\tseparate the query and data build.\t2 days ago\nmain.cpp\tseparate the query and data build.\t2 days ago\nmakeDataBase.hpp\tseparate the query and data build.\t2 days ago\nresultWeight.txt\tseparate the query and data build.\t2 days ago\nwordsWeight.txt\t1. add query words weight\t3 days ago\nwordstTimes.txt\tupdate the tf-idf data base calculate\t3 days ago\n© 2018 GitHub, Inc.\nTerms\nPrivacy\nSecurity\nStatus\nHelp\nContact GitHub\nAPI\nTraining\nShop\nBlog\nAbout\nPress h to open a hovercard with more details."}
+Started GET "/textmining.html?article=Skip%20to%20content%0AThis%20repository%0ASearch%0APull%20requests%0AIssues%0AMarketplace%0AExplore%0A%20%40b0w1d%0ASign%20out%0A1%0A0%201%20pecu%2FDH_Budapest_2018%0A%20Code%20%20Issues%200%20%20Pull%20requests%200%20%20Projects%200%20%20Wiki%20%20Insights%0ADH_Budapest_2018%2Falgorithms%2F%0ALatest%20commit%206ee2746%20%202%20days%20ago%0A%40guagua0201%0Aguagua0201%20separate%20the%20query%20and%20data%20build.%20%20%E2%80%A6%0A..%09%09%0AappearTimes.txt%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0Ainput.txt%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0AinputQuery.hpp%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0Amain.cpp%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0AmakeDataBase.hpp%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0AresultWeight.txt%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0AwordsWeight.txt%091.%20add%20query%20words%20weight%093%20days%20ago%0AwordstTimes.txt%09update%20the%20tf-idf%20data%20base%20calculate%093%20days%20ago%0A%C2%A9%202018%20GitHub%2C%20Inc.%0ATerms%0APrivacy%0ASecurity%0AStatus%0AHelp%0AContact%20GitHub%0AAPI%0ATraining%0AShop%0ABlog%0AAbout%0APress%20h%20to%20open%20a%20hovercard%20with%20more%20details." for 140.114.216.111 at 2018-03-24 13:43:36 +0800
+Cannot render console from 140.114.216.111! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TextminingController#index as HTML
+  Parameters: {"article"=>"Skip to content\nThis repository\nSearch\nPull requests\nIssues\nMarketplace\nExplore\n @b0w1d\nSign out\n1\n0 1 pecu/DH_Budapest_2018\n Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights\nDH_Budapest_2018/algorithms/\nLatest commit 6ee2746  2 days ago\n@guagua0201\nguagua0201 separate the query and data build.  …\n..\t\t\nappearTimes.txt\tseparate the query and data build.\t2 days ago\ninput.txt\tseparate the query and data build.\t2 days ago\ninputQuery.hpp\tseparate the query and data build.\t2 days ago\nmain.cpp\tseparate the query and data build.\t2 days ago\nmakeDataBase.hpp\tseparate the query and data build.\t2 days ago\nresultWeight.txt\tseparate the query and data build.\t2 days ago\nwordsWeight.txt\t1. add query words weight\t3 days ago\nwordstTimes.txt\tupdate the tf-idf data base calculate\t3 days ago\n© 2018 GitHub, Inc.\nTerms\nPrivacy\nSecurity\nStatus\nHelp\nContact GitHub\nAPI\nTraining\nShop\nBlog\nAbout\nPress h to open a hovercard with more details."}
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 22.4ms)
+
+
+Completed 200 OK in 47ms (Views: 0.2ms)
+
+
+Started GET "/textmining.html" for 140.114.216.111 at 2018-03-24 13:44:19 +0800
+Cannot render console from 140.114.216.111! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TextminingController#index as HTML
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 13ms (Views: 11.0ms)
+
+
+Started POST "/textmining/submit_article" for 140.114.216.111 at 2018-03-24 13:44:24 +0800
+Cannot render console from 140.114.216.111! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TextminingController#submit_article as */*
+  Parameters: {"article"=>"Skip to content\nThis repository\nSearch\nPull requests\nIssues\nMarketplace\nExplore\n @b0w1d\nSign out\n1\n0 1 pecu/DH_Budapest_2018\n Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights\nDH_Budapest_2018/algorithms/\nLatest commit 6ee2746  2 days ago\n@guagua0201\nguagua0201 separate the query and data build.  …\n..\t\t\nappearTimes.txt\tseparate the query and data build.\t2 days ago\ninput.txt\tseparate the query and data build.\t2 days ago\ninputQuery.hpp\tseparate the query and data build.\t2 days ago\nmain.cpp\tseparate the query and data build.\t2 days ago\nmakeDataBase.hpp\tseparate the query and data build.\t2 days ago\nresultWeight.txt\tseparate the query and data build.\t2 days ago\nwordsWeight.txt\t1. add query words weight\t3 days ago\nwordstTimes.txt\tupdate the tf-idf data base calculate\t3 days ago\n© 2018 GitHub, Inc.\nTerms\nPrivacy\nSecurity\nStatus\nHelp\nContact GitHub\nAPI\nTraining\nShop\nBlog\nAbout\nPress h to open a hovercard with more details."}
+Started GET "/textmining.html?article=Skip%20to%20content%0AThis%20repository%0ASearch%0APull%20requests%0AIssues%0AMarketplace%0AExplore%0A%20%40b0w1d%0ASign%20out%0A1%0A0%201%20pecu%2FDH_Budapest_2018%0A%20Code%20%20Issues%200%20%20Pull%20requests%200%20%20Projects%200%20%20Wiki%20%20Insights%0ADH_Budapest_2018%2Falgorithms%2F%0ALatest%20commit%206ee2746%20%202%20days%20ago%0A%40guagua0201%0Aguagua0201%20separate%20the%20query%20and%20data%20build.%20%20%E2%80%A6%0A..%09%09%0AappearTimes.txt%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0Ainput.txt%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0AinputQuery.hpp%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0Amain.cpp%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0AmakeDataBase.hpp%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0AresultWeight.txt%09separate%20the%20query%20and%20data%20build.%092%20days%20ago%0AwordsWeight.txt%091.%20add%20query%20words%20weight%093%20days%20ago%0AwordstTimes.txt%09update%20the%20tf-idf%20data%20base%20calculate%093%20days%20ago%0A%C2%A9%202018%20GitHub%2C%20Inc.%0ATerms%0APrivacy%0ASecurity%0AStatus%0AHelp%0AContact%20GitHub%0AAPI%0ATraining%0AShop%0ABlog%0AAbout%0APress%20h%20to%20open%20a%20hovercard%20with%20more%20details." for 140.114.216.111 at 2018-03-24 13:44:24 +0800
+Cannot render console from 140.114.216.111! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TextminingController#index as HTML
+  Parameters: {"article"=>"Skip to content\nThis repository\nSearch\nPull requests\nIssues\nMarketplace\nExplore\n @b0w1d\nSign out\n1\n0 1 pecu/DH_Budapest_2018\n Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights\nDH_Budapest_2018/algorithms/\nLatest commit 6ee2746  2 days ago\n@guagua0201\nguagua0201 separate the query and data build.  …\n..\t\t\nappearTimes.txt\tseparate the query and data build.\t2 days ago\ninput.txt\tseparate the query and data build.\t2 days ago\ninputQuery.hpp\tseparate the query and data build.\t2 days ago\nmain.cpp\tseparate the query and data build.\t2 days ago\nmakeDataBase.hpp\tseparate the query and data build.\t2 days ago\nresultWeight.txt\tseparate the query and data build.\t2 days ago\nwordsWeight.txt\t1. add query words weight\t3 days ago\nwordstTimes.txt\tupdate the tf-idf data base calculate\t3 days ago\n© 2018 GitHub, Inc.\nTerms\nPrivacy\nSecurity\nStatus\nHelp\nContact GitHub\nAPI\nTraining\nShop\nBlog\nAbout\nPress h to open a hovercard with more details."}
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 12.5ms)
+
+
+Completed 200 OK in 30ms (Views: 0.1ms)
+
+

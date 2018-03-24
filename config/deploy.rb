@@ -2,13 +2,13 @@
 lock "~> 3.10.1"
 
 set :application, "DH_Budapest_2018"
-set :local_repository, '/home/b0w1d/b0w1d/DH_Budapest_2018'
+set :repo_url, 'git@github.com:pecu/DH_Budapest_2018.git'
 set :rvm_ruby_version, '2.5.0@DH_Budapest_2018 --create'
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')
 set :assets_roles, [:app]
 set :migration_role, [:app]
 set :keep_releases, 3
-set :sidekiq_user, "ubuntu"
+set :sidekiq_user, "b0w1d"
 set :sidekiq_role, [:app]
 set :pty,  false
 

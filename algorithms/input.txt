@@ -7,22 +7,38 @@ Marketplace
 Explore
  @b0w1d
 Sign out
-1
-0 1 pecu/DH_Budapest_2018
+2
+2 2 SaKKo/install-ruby-on-rails-ubuntu
  Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
-DH_Budapest_2018/algorithms/
-Latest commit 6ee2746  2 days ago
-@guagua0201
-guagua0201 separate the query and data build.  …
-..		
-appearTimes.txt	separate the query and data build.	2 days ago
-input.txt	separate the query and data build.	2 days ago
-inputQuery.hpp	separate the query and data build.	2 days ago
-main.cpp	separate the query and data build.	2 days ago
-makeDataBase.hpp	separate the query and data build.	2 days ago
-resultWeight.txt	separate the query and data build.	2 days ago
-wordsWeight.txt	1. add query words weight	3 days ago
-wordstTimes.txt	update the tf-idf data base calculate	3 days ago
+install-ruby-on-rails-ubuntu/capistrano/deploy.rb
+5fde082  on Jan 3, 2017
+@SaKKo SaKKo added 5.0.x
+     
+25 lines (22 sloc)  807 Bytes
+# run this command on ubuntu server is bundler is missing on this gemset.
+# rvm 2.4.0@{{application_name}} do gem install bundler
+lock '3.4.1'
+
+set :application, '{{application_name}}'
+set :repo_url, 'git@bitbucket.org:sakko/{{application_name}}.git'
+set :rvm_ruby_version, '2.4.0@{{application_name}} --create'
+set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')
+set :assets_roles, [:app]
+set :migration_role, [:app]
+set :keep_releases, 3
+set :sidekiq_user, "ubuntu"
+set :sidekiq_role, [:app]
+set :pty,  false
+
+namespace :deploy do
+  task :restart do
+    on roles(:app), in: :sequence do
+      execute :touch, release_path.join('tmp/restart.txt')
+    end
+  end
+  after :publishing, :restart
+  after 'deploy', 'deploy:migrate'
+end
 © 2018 GitHub, Inc.
 Terms
 Privacy

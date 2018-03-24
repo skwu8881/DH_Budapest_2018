@@ -53,3 +53,10 @@ gem 'mongoid'
 gem 'bootstrap-sass'
 
 gem 'jquery-rails'
+
+group :development do
+  gem 'capistrano'
+  gem 'capistrano-rails'
+  gem 'capistrano-rvm'
+  gem 'capistrano-sidekiq'
+end

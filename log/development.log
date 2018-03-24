@@ -12660,3 +12660,11 @@ Completed 200 OK in 83ms (Views: 77.7ms)
 Completed 200 OK in 5361ms (Views: 2.5ms)
 
 
+Started GET "/" for 140.114.216.111 at 2018-03-24 13:35:30 +0800
+Cannot render console from 140.114.216.111! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IntroController#index as HTML
+  Rendering intro/index.html.erb within layouts/application
+  Rendered intro/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3005ms (Views: 2999.9ms)
+
+

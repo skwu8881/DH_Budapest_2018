@@ -1,0 +1,70 @@
+# Logfile created on 2018-03-24 13:20:14 +0800 by logger.rb/v1.2.7
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-03-24 13:20:14 +0800 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [23050a55] Running [ -d ~/.rvm ] as b0w1d@140.112.145.148
+ DEBUG [23050a55] Command: [ -d ~/.rvm ]
+ DEBUG [23050a55] Finished in 3.245 seconds with exit status 0 (successful).
+ DEBUG [f180154f] Running ~/.rvm/bin/rvm version as b0w1d@140.112.145.148
+ DEBUG [f180154f] Command: ~/.rvm/bin/rvm version
+ DEBUG [f180154f] 	bash: /home/b0w1d/.rvm/bin/rvm: No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-03-24 13:21:18 +0800 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [7bca7133] Running [ -d ~/.rvm ] as b0w1d@140.112.145.148
+ DEBUG [7bca7133] Command: [ -d ~/.rvm ]
+ DEBUG [7bca7133] Finished in 7.326 seconds with exit status 0 (successful).
+ DEBUG [08d3a6e1] Running ~/.rvm/bin/rvm version as b0w1d@140.112.145.148
+ DEBUG [08d3a6e1] Command: ~/.rvm/bin/rvm version
+ DEBUG [08d3a6e1] 	bash: /home/b0w1d/.rvm/bin/rvm: No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-03-24 13:26:57 +0800 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [d35d0721] Running [ -d ~/.rvm ] as b0w1d@140.112.145.148
+ DEBUG [d35d0721] Command: [ -d ~/.rvm ]
+ DEBUG [d35d0721] Finished in 2.836 seconds with exit status 0 (successful).
+ DEBUG [f8cd680d] Running ~/.rvm/bin/rvm version as b0w1d@140.112.145.148
+ DEBUG [f8cd680d] Command: ~/.rvm/bin/rvm version
+ DEBUG [f8cd680d] 	bash: /home/b0w1d/.rvm/bin/rvm: No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-03-24 13:27:36 +0800 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [123ef20c] Running [ -d ~/.rvm ] as b0w1d@140.112.145.148
+ DEBUG [123ef20c] Command: [ -d ~/.rvm ]
+ DEBUG [123ef20c] Finished in 2.614 seconds with exit status 0 (successful).
+ DEBUG [25651990] Running ~/.rvm/bin/rvm version as b0w1d@140.112.145.148
+ DEBUG [25651990] Command: ~/.rvm/bin/rvm version
+ DEBUG [25651990] 	bash: /home/b0w1d/.rvm/bin/rvm: No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-03-24 13:29:09 +0800 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [58616c1d] Running [ -d ~/.rvm ] as b0w1d@140.112.145.148
+ DEBUG [58616c1d] Command: [ -d ~/.rvm ]
+ DEBUG [58616c1d] Finished in 2.361 seconds with exit status 0 (successful).
+ DEBUG [abccb45f] Running ~/.rvm/bin/rvm version as b0w1d@140.112.145.148
+ DEBUG [abccb45f] Command: ~/.rvm/bin/rvm version
+ DEBUG [abccb45f] 	rvm 1.29.3 (manual) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [abccb45f] Finished in 0.197 seconds with exit status 0 (successful).
+ DEBUG [7ff3f807] Running ~/.rvm/bin/rvm current as b0w1d@140.112.145.148
+ DEBUG [7ff3f807] Command: ~/.rvm/bin/rvm current
+ DEBUG [7ff3f807] 	ruby-2.5.0
+ DEBUG [7ff3f807] Finished in 0.182 seconds with exit status 0 (successful).
+ DEBUG [058a4e83] Running ~/.rvm/bin/rvm 2.5.0@DH_Budapest_2018 --create do ruby --version as b0w1d@140.112.145.148
+ DEBUG [058a4e83] Command: ~/.rvm/bin/rvm 2.5.0@DH_Budapest_2018 --create do ruby --version
+ DEBUG [058a4e83] 	ruby 2.5.0p0 (2017-12-25 revision 61468) [x86_64-linux]
+ DEBUG [058a4e83] Finished in 0.470 seconds with exit status 0 (successful).
+  INFO [7b423825] Running /usr/bin/env mkdir -p /tmp as b0w1d@140.112.145.148
+ DEBUG [7b423825] Command: /usr/bin/env mkdir -p /tmp
+  INFO [7b423825] Finished in 0.045 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-DH_Budapest_2018-staging-b0w1d.sh 0.0%
+  INFO Uploading /tmp/git-ssh-DH_Budapest_2018-staging-b0w1d.sh 100.0%
+  INFO [ae1f71fb] Running /usr/bin/env chmod 700 /tmp/git-ssh-DH_Budapest_2018-staging-b0w1d.sh as b0w1d@140.112.145.148
+ DEBUG [ae1f71fb] Command: /usr/bin/env chmod 700 /tmp/git-ssh-DH_Budapest_2018-staging-b0w1d.sh
+  INFO [ae1f71fb] Finished in 0.048 seconds with exit status 0 (successful).
+  INFO [d43cce3e] Running /usr/bin/env git ls-remote  HEAD as b0w1d@140.112.145.148
+ DEBUG [d43cce3e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-DH_Budapest_2018-staging-b0w1d.sh" ; /usr/bin/env git ls-remote  HEAD )
+ DEBUG [d43cce3e] 	fatal: 'HEAD' does not appear to be a git repository
+ DEBUG [d43cce3e] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.

@@ -26,4 +26,5 @@ NER, NLP, Real-Time System, Sentiment Analysis, Text Mining, Data Visualization,
 
   - [Text Analytics in the News](https://github.com/BBC-News-Labs/Text_Analytics)    
   - [displaCy Named Entity Visualizer](https://demos.explosion.ai/displacy-ent/)    
-  - [Complete guide to build your own Named Entity Recognizer with Python](http://nlpforhackers.io/named-entity-extraction/)
+  - [Complete guide to build your own Named Entity Recognizer with Python](http://nlpforhackers.io/named-entity-extraction/)    
+  - [SpaCy Visualizers](https://spacy.io/usage/visualizers)

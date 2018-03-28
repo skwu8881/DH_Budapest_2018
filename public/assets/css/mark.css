@@ -69,12 +69,12 @@
      background: rgb(67, 198, 252);
 }
 
-[data-entity][data-entity="gpe"] {
+[data-entity][data-entity="yellow"] {
      background: rgba(253, 151, 32, 0.2);
      border-color: rgb(253, 151, 32);
 }
 
-[data-entity][data-entity="gpe"]::after {
+[data-entity][data-entity="yellow"]::after {
      background: rgb(253, 151, 32);
 }
 
@@ -87,12 +87,12 @@
      background: rgb(253, 151, 32);
 }
 
-[data-entity][data-entity="product"] {
+[data-entity][data-entity="geo"] {
      background: rgba(142, 125, 255, 0.2);
      border-color: rgb(142, 125, 255);
 }
 
-[data-entity][data-entity="product"]::after {
+[data-entity][data-entity="geo"]::after {
      background: rgb(142, 125, 255);
 }
 

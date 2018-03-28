@@ -5,13 +5,15 @@ class TextminingController < ApplicationController
   end
 
   def submit_article
+=begin
     File.open("algorithms/input.txt", "w") { |f| f.write(params[:article]) }
     `algorithms/query`
+=end
     s = File.open("algorithms/resultWeight.txt").each_line.map(&:split).map { |s| s.join ?, } .join(?\n)
     File.open("public/flare.csv", 'w') { |f| f.write("id,value\n" + s) }
     respond_to do |f|
-      f.json { render json: { responseText:
-<<-'EOS'
+      f.json { render json: { statistics_html:
+<<-'EOS',
 <svg width="960" height="960" font-family="sans-serif" font-size="10" text-anchor="middle"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
@@ -75,6 +77,31 @@ d3.csv("flare.csv", function(d) {
 });
 
 </script>
+EOS
+tags_html:
+<<-EOS
+#{
+n = File.open("algorithms/input_mark.txt").each_line.map(&:to_s).join ?\n
+s = File.open("algorithms/Json.txt").each_line.map(&:to_s).join
+u = JSON.parse(s).to_a.reject { |i| i['word'].match?(/\A[`'"]+\z/) rescue true }
+
+n_ptr, u_ptr = 0, 0
+res = '<div class="entities">'
+until n_ptr == n.size
+  w = u[u_ptr]['word'] rescue nil
+  if u_ptr < u.size && n[n_ptr, w.size] == w
+    res += '<mark data-entity="' + u[u_ptr]['cate'] + '">' if u[u_ptr]['cate'] != 'None'
+    res += w
+    res += '</mark>' if u[u_ptr]['cate'] != 'None'
+    n_ptr += w.size
+    u_ptr += 1
+  else
+    res += n[n_ptr] if n[n_ptr].encoding == 'UTF-8' || [' ', ?\n].include?(n[n_ptr])
+    n_ptr += 1
+  end
+end
+res += '</div>'
+}
 EOS
         }
       }

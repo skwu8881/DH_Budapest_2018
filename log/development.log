@@ -12802,3 +12802,376 @@ Processing by TextminingController#index as HTML
 Completed 200 OK in 42ms (Views: 39.9ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-03-28 22:47:47 +0800
+Processing by IntroController#index as HTML
+  Rendering intro/index.html.erb within layouts/application
+  Rendered intro/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 6456ms (Views: 6436.1ms)
+
+
+Started GET "/textmining.html" for 127.0.0.1 at 2018-03-28 22:47:57 +0800
+Processing by TextminingController#index as HTML
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 53ms (Views: 44.4ms)
+
+
+Started POST "/textmining/submit_article" for 127.0.0.1 at 2018-03-28 22:47:59 +0800
+Processing by TextminingController#submit_article as */*
+  Parameters: {"article"=>""}
+Started GET "/textmining.html?article=" for 127.0.0.1 at 2018-03-28 22:47:59 +0800
+Processing by TextminingController#index as HTML
+  Parameters: {"article"=>""}
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 29ms (Views: 0.4ms)
+
+
+Completed 200 OK in 47ms (Views: 44.3ms)
+
+
+Started GET "/textmining.html" for 127.0.0.1 at 2018-03-28 22:48:03 +0800
+Processing by TextminingController#index as HTML
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 28ms (Views: 25.5ms)
+
+
+Started GET "/textmining.html" for 127.0.0.1 at 2018-03-28 22:48:07 +0800
+Processing by TextminingController#index as HTML
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 91ms (Views: 82.3ms)
+
+
+Started GET "/textmining.html" for 127.0.0.1 at 2018-03-28 22:48:59 +0800
+Processing by TextminingController#index as HTML
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 903ms (Views: 880.1ms)
+
+
+Started GET "/textmining.html" for 127.0.0.1 at 2018-03-28 22:49:46 +0800
+Processing by TextminingController#index as HTML
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 45ms (Views: 42.3ms)
+
+
+Started GET "/textmining.html?article=" for 127.0.0.1 at 2018-03-28 22:49:48 +0800
+Started POST "/textmining/submit_article" for 127.0.0.1 at 2018-03-28 22:49:48 +0800
+Processing by TextminingController#index as HTML
+  Parameters: {"article"=>""}
+Processing by TextminingController#submit_article as */*
+  Parameters: {"article"=>""}
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 31ms (Views: 0.5ms)
+
+
+Completed 200 OK in 48ms (Views: 44.3ms)
+
+
+Started GET "/textmining.html" for 127.0.0.1 at 2018-03-28 22:50:37 +0800
+Processing by TextminingController#index as HTML
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 99ms (Views: 92.3ms)
+
+
+Started POST "/textmining/submit_article" for 127.0.0.1 at 2018-03-28 22:50:39 +0800
+Processing by TextminingController#submit_article as */*
+  Parameters: {"article"=>""}
+Completed 500 Internal Server Error in 297ms
+
+
+Started GET "/textmining.html?article=" for 127.0.0.1 at 2018-03-28 22:50:39 +0800
+  
+Processing by TextminingController#index as HTML
+  Parameters: {"article"=>""}
+NameError (undefined local variable or method `s' for #<TextminingController:0x00007fde52d68c28>):
+  
+app/controllers/textmining_controller.rb:13:in `block in submit_article'
+app/controllers/textmining_controller.rb:13:in `open'
+app/controllers/textmining_controller.rb:13:in `submit_article'
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 107ms (Views: 73.7ms)
+
+
+Started POST "/textmining/submit_article" for 127.0.0.1 at 2018-03-28 22:50:42 +0800
+Processing by TextminingController#submit_article as */*
+  Parameters: {"article"=>""}
+Started GET "/textmining.html?article=" for 127.0.0.1 at 2018-03-28 22:50:42 +0800
+Completed 500 Internal Server Error in 271ms
+
+
+  
+Processing by TextminingController#index as HTML
+NameError (undefined local variable or method `s' for #<TextminingController:0x00007fde52c89230>):
+  
+  Parameters: {"article"=>""}
+app/controllers/textmining_controller.rb:13:in `block in submit_article'
+app/controllers/textmining_controller.rb:13:in `open'
+app/controllers/textmining_controller.rb:13:in `submit_article'
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 87ms (Views: 83.2ms)
+
+
+Started GET "/textmining.html" for 127.0.0.1 at 2018-03-28 22:50:45 +0800
+Processing by TextminingController#index as HTML
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 29ms (Views: 26.7ms)
+
+
+Started POST "/textmining/submit_article" for 127.0.0.1 at 2018-03-28 22:50:47 +0800
+Processing by TextminingController#submit_article as */*
+  Parameters: {"article"=>"a"}
+Completed 500 Internal Server Error in 174ms
+
+
+  
+NameError (undefined local variable or method `s' for #<TextminingController:0x00007fde569d9518>):
+Started GET "/textmining.html?article=a" for 127.0.0.1 at 2018-03-28 22:50:47 +0800
+  
+Processing by TextminingController#index as HTML
+app/controllers/textmining_controller.rb:13:in `block in submit_article'
+app/controllers/textmining_controller.rb:13:in `open'
+app/controllers/textmining_controller.rb:13:in `submit_article'
+  Parameters: {"article"=>"a"}
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 287ms (Views: 283.3ms)
+
+
+Started POST "/textmining/submit_article" for 127.0.0.1 at 2018-03-28 22:51:08 +0800
+Started GET "/textmining.html?article=a" for 127.0.0.1 at 2018-03-28 22:51:08 +0800
+Processing by TextminingController#submit_article as */*
+  Parameters: {"article"=>"a"}
+Completed 200 OK in 5ms (Views: 0.9ms)
+
+
+Processing by TextminingController#index as HTML
+  Parameters: {"article"=>"a"}
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 94ms (Views: 88.6ms)
+
+
+Started GET "/textmining.html" for 127.0.0.1 at 2018-03-28 22:51:10 +0800
+Processing by TextminingController#index as HTML
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 33ms (Views: 30.8ms)
+
+
+Started POST "/textmining/submit_article" for 127.0.0.1 at 2018-03-28 22:51:12 +0800
+Processing by TextminingController#submit_article as */*
+  Parameters: {"article"=>""}
+Completed 200 OK in 3ms (Views: 0.4ms)
+
+
+Started GET "/textmining.html?article=" for 127.0.0.1 at 2018-03-28 22:51:12 +0800
+Processing by TextminingController#index as HTML
+  Parameters: {"article"=>""}
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 81ms (Views: 77.3ms)
+
+
+Started GET "/textmining.html" for 127.0.0.1 at 2018-03-28 22:51:39 +0800
+Processing by TextminingController#index as HTML
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 34ms (Views: 31.6ms)
+
+
+Started POST "/textmining/submit_article" for 127.0.0.1 at 2018-03-28 22:51:40 +0800
+Processing by TextminingController#submit_article as */*
+  Parameters: {"article"=>""}
+Completed 200 OK in 3ms (Views: 0.7ms)
+
+
+Started GET "/textmining.html?article=" for 127.0.0.1 at 2018-03-28 22:51:40 +0800
+Processing by TextminingController#index as HTML
+  Parameters: {"article"=>""}
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 40ms (Views: 35.8ms)
+
+
+Started GET "/textmining.html" for 127.0.0.1 at 2018-03-28 22:52:30 +0800
+Processing by TextminingController#index as HTML
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 29ms (Views: 26.3ms)
+
+
+Started POST "/textmining/submit_article" for 127.0.0.1 at 2018-03-28 22:52:32 +0800
+Processing by TextminingController#submit_article as */*
+  Parameters: {"article"=>""}
+Completed 200 OK in 3ms (Views: 0.4ms)
+
+
+Started GET "/textmining.html?article=" for 127.0.0.1 at 2018-03-28 22:52:32 +0800
+Processing by TextminingController#index as HTML
+  Parameters: {"article"=>""}
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 55ms (Views: 51.6ms)
+
+
+Started POST "/textmining/submit_article" for 127.0.0.1 at 2018-03-28 22:52:50 +0800
+  
+Started GET "/textmining.html?article=" for 127.0.0.1 at 2018-03-28 22:52:50 +0800
+SyntaxError (/Users/d0w0b/DH_Budapest_2018/app/controllers/textmining_controller.rb:81: syntax error, unexpected ',', expecting '}'
+/Users/d0w0b/DH_Budapest_2018/app/controllers/textmining_controller.rb:108: syntax error, unexpected '}', expecting keyword_end
+      }
+      ^):
+  
+app/controllers/textmining_controller.rb:81: syntax error, unexpected ',', expecting '}'
+app/controllers/textmining_controller.rb:108: syntax error, unexpected '}', expecting keyword_end
+  
+SyntaxError (/Users/d0w0b/DH_Budapest_2018/app/controllers/textmining_controller.rb:81: syntax error, unexpected ',', expecting '}'
+/Users/d0w0b/DH_Budapest_2018/app/controllers/textmining_controller.rb:108: syntax error, unexpected '}', expecting keyword_end
+      }
+      ^):
+  
+app/controllers/textmining_controller.rb:81: syntax error, unexpected ',', expecting '}'
+app/controllers/textmining_controller.rb:108: syntax error, unexpected '}', expecting keyword_end
+Started GET "/textmining.html" for 127.0.0.1 at 2018-03-28 22:55:28 +0800
+Processing by TextminingController#index as HTML
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 155ms (Views: 114.4ms)
+
+
+Started POST "/textmining/submit_article" for 127.0.0.1 at 2018-03-28 22:55:30 +0800
+Processing by TextminingController#submit_article as */*
+  Parameters: {"article"=>""}
+Started GET "/textmining.html?article=" for 127.0.0.1 at 2018-03-28 22:55:30 +0800
+Processing by TextminingController#index as HTML
+  Parameters: {"article"=>""}
+Completed 500 Internal Server Error in 28ms
+
+
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.5ms)
+  
+JSON::GeneratorError (source sequence is illegal/malformed utf-8):
+  
+app/controllers/textmining_controller.rb:15:in `block (2 levels) in submit_article'
+app/controllers/textmining_controller.rb:14:in `submit_article'
+Completed 200 OK in 171ms (Views: 167.0ms)
+
+
+Started POST "/textmining/submit_article" for 127.0.0.1 at 2018-03-28 22:55:45 +0800
+Processing by TextminingController#submit_article as */*
+  Parameters: {"article"=>"a"}
+Started GET "/textmining.html?article=a" for 127.0.0.1 at 2018-03-28 22:55:45 +0800
+Processing by TextminingController#index as HTML
+  Parameters: {"article"=>"a"}
+Completed 500 Internal Server Error in 27ms
+
+
+  
+JSON::GeneratorError (source sequence is illegal/malformed utf-8):
+  
+app/controllers/textmining_controller.rb:15:in `block (2 levels) in submit_article'
+app/controllers/textmining_controller.rb:14:in `submit_article'
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 165ms (Views: 159.3ms)
+
+
+Started GET "/textmining.html" for 127.0.0.1 at 2018-03-28 22:57:07 +0800
+Processing by TextminingController#index as HTML
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 849ms (Views: 835.0ms)
+
+
+Started POST "/textmining/submit_article" for 127.0.0.1 at 2018-03-28 22:57:09 +0800
+Started GET "/textmining.html?article=" for 127.0.0.1 at 2018-03-28 22:57:09 +0800
+Processing by TextminingController#submit_article as */*
+Processing by TextminingController#index as HTML
+  Parameters: {"article"=>""}
+  Parameters: {"article"=>""}
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 28ms
+
+
+  
+JSON::GeneratorError (source sequence is illegal/malformed utf-8):
+  
+app/controllers/textmining_controller.rb:15:in `block (2 levels) in submit_article'
+app/controllers/textmining_controller.rb:14:in `submit_article'
+Completed 200 OK in 142ms (Views: 139.0ms)
+
+
+Started GET "/textmining.html" for 127.0.0.1 at 2018-03-28 22:59:07 +0800
+Processing by TextminingController#index as HTML
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 81ms (Views: 75.4ms)
+
+
+Started POST "/textmining/submit_article" for 127.0.0.1 at 2018-03-28 22:59:09 +0800
+Processing by TextminingController#submit_article as */*
+  Parameters: {"article"=>"a"}
+Completed 200 OK in 17ms (Views: 0.8ms)
+
+
+Started GET "/textmining.html?article=a" for 127.0.0.1 at 2018-03-28 22:59:09 +0800
+Processing by TextminingController#index as HTML
+  Parameters: {"article"=>"a"}
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 63ms (Views: 60.3ms)
+
+
+Started GET "/textmining.html" for 127.0.0.1 at 2018-03-28 23:00:19 +0800
+Processing by TextminingController#index as HTML
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 73ms (Views: 67.8ms)
+
+
+Started POST "/textmining/submit_article" for 127.0.0.1 at 2018-03-28 23:00:21 +0800
+Processing by TextminingController#submit_article as */*
+  Parameters: {"article"=>"a"}
+Completed 200 OK in 21ms (Views: 1.0ms)
+
+
+Started GET "/textmining.html?article=a" for 127.0.0.1 at 2018-03-28 23:00:21 +0800
+Processing by TextminingController#index as HTML
+  Parameters: {"article"=>"a"}
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 56ms (Views: 51.3ms)
+
+
+Started GET "/textmining.html" for 127.0.0.1 at 2018-03-28 23:00:56 +0800
+Processing by TextminingController#index as HTML
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 113ms (Views: 106.6ms)
+
+
+Started POST "/textmining/submit_article" for 127.0.0.1 at 2018-03-28 23:00:58 +0800
+Processing by TextminingController#submit_article as */*
+  Parameters: {"article"=>"a"}
+Completed 200 OK in 22ms (Views: 0.9ms)
+
+
+Started GET "/textmining.html?article=a" for 127.0.0.1 at 2018-03-28 23:00:58 +0800
+Processing by TextminingController#index as HTML
+  Parameters: {"article"=>"a"}
+  Rendering textmining/index.html.erb within layouts/application
+  Rendered textmining/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 64ms (Views: 59.6ms)
+
+

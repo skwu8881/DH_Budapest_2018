@@ -5,10 +5,8 @@ class TextminingController < ApplicationController
   end
 
   def submit_article
-=begin
     File.open("algorithms/input.txt", "w") { |f| f.write(params[:article]) }
     `algorithms/query`
-=end
     s = File.open("algorithms/resultWeight.txt").each_line.map(&:split).map { |s| s.join ?, } .join(?\n)
     File.open("public/flare.csv", 'w') { |f| f.write("id,value\n" + s) }
     respond_to do |f|

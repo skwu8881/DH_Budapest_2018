@@ -96,7 +96,7 @@ until n_ptr == n.size
     n_ptr += w.size
     u_ptr += 1
   else
-    res += n[n_ptr] if n[n_ptr].encoding == 'UTF-8' || [' ', ?\n].include?(n[n_ptr])
+    res += n[n_ptr].force_encoding("ISO-8859-1").encode("UTF-8")
     n_ptr += 1
   end
 end

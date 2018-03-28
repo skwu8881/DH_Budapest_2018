@@ -24,6 +24,7 @@ private:
 		for (auto f : s) {
 			if (f >= 'A' && f <= 'Z') s2.push_back(f - 'A' + 'a');
 			else if (f >= 'a' && f <= 'z') s2.push_back(f);
+			else if (f == '\'' || f == '-') s2.push_back(f);
 		}
 		return s2;
 	}

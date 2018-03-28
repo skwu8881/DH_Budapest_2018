@@ -23,6 +23,7 @@ private:
 		for (auto f : s) {
 			if (f >= 'A' && f <= 'Z') s2.push_back(f - 'A' + 'a');
 			else if (f >= 'a' && f <= 'z') s2.push_back(f);
+			else if (f == '\'' || f == '-') s2.push_back(f);
 		}
 		return s2;
 	}
@@ -62,12 +63,12 @@ public:
 		}
 		fin.close();
 		this->total.clear();
-		fin.open("algorithms/wordsTimes.txt", ios::in);
+		fin.open("./wordsTimes.txt", ios::in);
 		while (fin >> s>>x) {
 			total[s] = x;
 		}
 		fin.close();
-		fin.open("algorithms/appearTimes.txt", ios::in);
+		fin.open("./appearTimes.txt", ios::in);
 		while (fin >> s >> x) {
 			appearTime[s] = x;
 		}
@@ -85,7 +86,7 @@ public:
 			inputV.push_back(make_pair(tf*idf, f.first));
 		}
 		sort(inputV.begin(), inputV.end(),srt());
-		string outFile = "algorithms/resultWeight.txt";
+		string outFile = "./resultWeight.txt";
 		fstream fout;
 		fout.open(outFile.c_str(), ios::out);
 		fout.close();

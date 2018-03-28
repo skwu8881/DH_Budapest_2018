@@ -1,0 +1,275 @@
+(S
+  (geo Airbus/NNP)
+  ,/,
+  one/CD
+  of/IN
+  the/DT
+  (org UK/NNP)
+  's/POS
+  biggest/JJS
+  manufacturing/NN
+  employers/NNS
+  ,/,
+  has/VBZ
+  warned/VBN
+  it/PRP
+  may/MD
+  have/VB
+  to/TO
+  stockpile/VB
+  parts/NNS
+  to/TO
+  operate/VB
+  smoothly/RB
+  once/RB
+  the/DT
+  (org UK/NNP)
+  leaves/VBZ
+  the/DT
+  (org EU/NNP)
+  ./.
+  (per Katherine/NNP Bennett/NNP)
+  (tim ,/,)
+  senior/JJ
+  vice-president/NN
+  for/IN
+  (geo Airbus/NNP UK/NNP)
+  ,/,
+  told/VBD
+  the/DT
+  (org BBC/NNP)
+  it/PRP
+  would/MD
+  have/VB
+  to/TO
+  decide/VB
+  very/RB
+  soon/RB
+  about/IN
+  ``/``
+  pressing/VBG
+  the/DT
+  (org button/NN)
+  (tim ''/'' on/IN)
+  (tim stockpiling/NN)
+  ./.
+  (eve ``/`` We/PRP spend/VBP)
+  ¢G5bn/RP
+  a/DT
+  year/NN
+  on/IN
+  the/DT
+  (org UK/NNP supply/NN)
+  (tim chain/NN)
+  .../:
+  it/PRP
+  is/VBZ
+  really/RB
+  important/JJ
+  the/DT
+  parts/NNS
+  do/VBP
+  n't/RB
+  get/VB
+  held/VBN
+  up/RP
+  in/IN
+  (tim warehouses/NNS)
+  ./.
+  (per ''/'' Ms/NNP Bennett/NNP)
+  said/VBD
+  the/DT
+  firm/NN
+  was/VBD
+  in/IN
+  discussions/NNS
+  with/IN
+  government/NN
+  ./.
+  She/PRP
+  told/VBD
+  the/DT
+  (org BBC/NNP 's/POS Today/NNP programme/VBZ)
+  that/IN
+  the/DT
+  firm/NN
+  operated/VBD
+  a/DT
+  ``/``
+  just/RB
+  in/IN
+  time/NN
+  (tim ''/'' supply/NN chain/NN)
+  ,/,
+  which/WDT
+  meant/VBP
+  that/IN
+  even/RB
+  a/DT
+  three-hour/JJ
+  delay/NN
+  at/IN
+  (geo Dover/NNP)
+  ,/,
+  for/IN
+  example/NN
+  ,/,
+  would/MD
+  be/VB
+  ``/``
+  a/DT
+  critical/JJ
+  issue/NN
+  (tim ''/'' ./. ``/``)
+  (eve We/PRP need/VBP)
+  conditions/NNS
+  right/RB
+  for/IN
+  us/PRP
+  ,/,
+  we/PRP
+  just/RB
+  do/VBP
+  n't/RB
+  need/VB
+  these/DT
+  (tim burdens/NNS)
+  .../:
+  which/WDT
+  may/MD
+  make/VB
+  (art Airbus/NNP think/VB)
+  (tim differently/RB)
+  [/VBZ
+  about/IN
+  its/PRP$
+  base/NN
+  (tim ]/NN ,/, ''/'')
+  she/PRP
+  warned/VBD
+  ./.
+  (org Airbus/NNP)
+  (art builds/VBZ)
+  its/PRP$
+  planes/NNS
+  in/IN
+  four/CD
+  (art ``/``)
+  (tim home/NN ''/'')
+  countries/NNS
+  across/IN
+  (geo Europe/NNP)
+  ./.
+  In/IN
+  the/DT
+  (org UK/NNP)
+  ,/,
+  it/PRP
+  builds/VBZ
+  the/DT
+  wings/NNS
+  for/IN
+  the/DT
+  (org A400M/NNP)
+  military/JJ
+  planes/NNS
+  at/IN
+  (geo Filton/NNP)
+  ,/,
+  near/IN
+  (geo Bristol/NNP)
+  ,/,
+  and/CC
+  builds/NNS
+  wings/NNS
+  for/IN
+  the/DT
+  other/JJ
+  (geo Airbus/NNP)
+  planes/NNS
+  at/IN
+  (geo Broughton/NNP)
+  in/IN
+  (geo North/NNP Wales/NNP)
+  ./.
+  There/EX
+  have/VBP
+  been/VBN
+  recent/JJ
+  press/NN
+  reports/NNS
+  of/IN
+  plans/NNS
+  for/IN
+  thousands/NNS
+  of/IN
+  job/NN
+  cuts/NNS
+  at/IN
+  the/DT
+  company/NN
+  ./.
+  (per Airbus/NNP)
+  said/VBD
+  it/PRP
+  had/VBD
+  a/DT
+  policy/NN
+  of/IN
+  ``/``
+  first/JJ
+  addressing/VBG
+  workforce/NN
+  issues/NNS
+  with/IN
+  its/PRP$
+  (art social/JJ)
+  (tim partners/NNS ''/'' before/IN)
+  any/DT
+  public/JJ
+  disclosure/NN
+  ./.
+  In/IN
+  its/PRP$
+  statement/NN
+  ,/,
+  the/DT
+  company/NN
+  said/VBD
+  it/PRP
+  ``/``
+  deeply/JJ
+  regrets/NNS
+  that/IN
+  the/DT
+  process/NN
+  on/IN
+  the/DT
+  current/JJ
+  subject/JJ
+  matter/NN
+  has/VBZ
+  been/VBN
+  disturbed/VBN
+  by/IN
+  leaks/NNS
+  to/TO
+  the/DT
+  media/NNS
+  ,/,
+  which/WDT
+  resulted/VBD
+  in/IN
+  excessive/JJ
+  reporting/NN
+  about/IN
+  alleged/JJ
+  job/NN
+  cuts/NNS
+  in/IN
+  its/PRP$
+  four/CD
+  home/NN
+  countries/NNS
+  (tim ''/'')
+  ./.)

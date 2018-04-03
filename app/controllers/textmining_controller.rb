@@ -6,7 +6,9 @@ class TextminingController < ApplicationController
 
   def submit_article
     File.open("algorithms/input.txt", "w") { |f| f.write(params[:article]) }
-    `algorithms/query`
+    puts `python3 algorithms/myNER2.py`
+    c_query = Thread.new { `algorithms/query` }
+    c_query.join
     s = File.open("algorithms/resultWeight.txt").each_line.map(&:split).map { |s| s.join ?, } .join(?\n)
     File.open("public/flare.csv", 'w') { |f| f.write("id,value\n" + s) }
     respond_to do |f|
@@ -79,7 +81,7 @@ EOS
 tags_html:
 <<-EOS
 #{
-n = File.open("algorithms/input_mark.txt").each_line.map(&:to_s).join ?\n
+n = File.open("algorithms/input.txt").each_line.map(&:to_s).join ?\n
 s = File.open("algorithms/Json.txt").each_line.map(&:to_s).join
 u = JSON.parse(s).to_a.reject { |i| i['word'].match?(/\A[`'"]+\z/) rescue true }
 

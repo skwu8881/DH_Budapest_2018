@@ -165,14 +165,14 @@ class NamedEntityChunker(ChunkParserI):
  
 
 from nltk import pos_tag, word_tokenize
-fpath = "./before_input.spydata"
+fpath = "algorithms/before_input.spydata"
 from spyder.utils.iofuncs import load_dictionary
 
 globals().update(load_dictionary(fpath)[0])
 data = load_dictionary(fpath)
 chunker = NamedEntityChunker(training_samples[:2000])
-file = open('./input.txt','r')
-fout = open('./NER.txt','w')
+file = open('algorithms/input.txt','r')
+fout = open('algorithms/NER.txt','w')
 fout.write( str(chunker.parse(pos_tag(word_tokenize(file.read())))))
 score = chunker.evaluate([conlltags2tree([(w, t, iob) for (w, t), iob in iobs]) for iobs in test_samples[:500]])
 print( score.accuracy() )        # 0.931132334092 - Awesome :D

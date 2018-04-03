@@ -63,12 +63,12 @@ public:
 		}
 		fin.close();
 		this->total.clear();
-		fin.open("./wordsTimes.txt", ios::in);
+		fin.open("algorithms/wordsTimes.txt", ios::in);
 		while (fin >> s>>x) {
 			total[s] = x;
 		}
 		fin.close();
-		fin.open("./appearTimes.txt", ios::in);
+		fin.open("algorithms/appearTimes.txt", ios::in);
 		while (fin >> s >> x) {
 			appearTime[s] = x;
 		}
@@ -86,7 +86,7 @@ public:
 			inputV.push_back(make_pair(tf*idf, f.first));
 		}
 		sort(inputV.begin(), inputV.end(),srt());
-		string outFile = "./resultWeight.txt";
+		string outFile = "algorithms/resultWeight.txt";
 		fstream fout;
 		fout.open(outFile.c_str(), ios::out);
 		fout.close();

@@ -1,5 +1,5 @@
 .entities {
-     line-height: 2;
+     line-height: 2; 
 }
 
 [data-entity] {
@@ -8,7 +8,7 @@
      line-height: 1;
      display: inline-block;
      border-radius: 0.25em;
-     border: 1px solid;
+     border: 1px solid; 
 }
 
 [data-entity]::after {
@@ -21,167 +21,167 @@
      text-transform: uppercase;
      display: inline-block;
      vertical-align: middle;
-     margin: 0px 0px 0.1rem 0.5rem;
+     margin: 0px 0px 0.1rem 0.5rem; 
 }
 
 [data-entity][data-entity="person"] {
      background: rgba(166, 226, 45, 0.2);
-     border-color: rgb(166, 226, 45);
+     border-color: rgb(166, 226, 45); 
 }
 
 [data-entity][data-entity="person"]::after {
-     background: rgb(166, 226, 45);
+     background: rgb(166, 226, 45); 
 }
 
 [data-entity][data-entity="per"] {
      background: rgba(166, 226, 45, 0.2);
-     border-color: rgb(166, 226, 45);
+     border-color: rgb(166, 226, 45); 
 }
 
 [data-entity][data-entity="per"]::after {
-     background: rgb(166, 226, 45);
+     background: rgb(166, 226, 45); 
 }
 
 [data-entity][data-entity="norp"] {
      background: rgba(224, 0, 132, 0.2);
-     border-color: rgb(224, 0, 132);
+     border-color: rgb(224, 0, 132); 
 }
 
 [data-entity][data-entity="norp"]::after {
-     background: rgb(224, 0, 132);
+     background: rgb(224, 0, 132); 
 }
 
-[data-entity][data-entity="art"] {
+[data-entity][data-entity="geo"] {
      background: rgba(67, 198, 252, 0.2);
-     border-color: rgb(67, 198, 252);
+     border-color: rgb(67, 198, 252); 
 }
 
-[data-entity][data-entity="art"]::after {
-     background: rgb(67, 198, 252);
+[data-entity][data-entity="geo"]::after {
+     background: rgb(67, 198, 252); 
 }
 
 [data-entity][data-entity="org"] {
      background: rgba(67, 198, 252, 0.2);
-     border-color: rgb(67, 198, 252);
+     border-color: rgb(67, 198, 252); 
 }
 
 [data-entity][data-entity="org"]::after {
-     background: rgb(67, 198, 252);
+     background: rgb(67, 198, 252); 
 }
 
-[data-entity][data-entity="yellow"] {
+[data-entity][data-entity="gpe"] {
      background: rgba(253, 151, 32, 0.2);
-     border-color: rgb(253, 151, 32);
+     border-color: rgb(253, 151, 32); 
 }
 
-[data-entity][data-entity="yellow"]::after {
-     background: rgb(253, 151, 32);
+[data-entity][data-entity="gpe"]::after {
+     background: rgb(253, 151, 32); 
 }
 
 [data-entity][data-entity="loc"] {
      background: rgba(253, 151, 32, 0.2);
-     border-color: rgb(253, 151, 32);
+     border-color: rgb(253, 151, 32); 
 }
 
 [data-entity][data-entity="loc"]::after {
-     background: rgb(253, 151, 32);
+     background: rgb(253, 151, 32); 
 }
 
-[data-entity][data-entity="geo"] {
+[data-entity][data-entity="product"] {
      background: rgba(142, 125, 255, 0.2);
-     border-color: rgb(142, 125, 255);
+     border-color: rgb(142, 125, 255); 
 }
 
-[data-entity][data-entity="geo"]::after {
-     background: rgb(142, 125, 255);
+[data-entity][data-entity="product"]::after {
+     background: rgb(142, 125, 255); 
 }
 
 [data-entity][data-entity="event"] {
      background: rgba(255, 204, 0, 0.2);
-     border-color: rgb(255, 204, 0);
+     border-color: rgb(255, 204, 0); 
 }
 
 [data-entity][data-entity="event"]::after {
-     background: rgb(255, 204, 0);
+     background: rgb(255, 204, 0); 
 }
 
 [data-entity][data-entity="work_of_art"] {
      background: rgba(255, 204, 0, 0.2);
-     border-color: rgb(255, 204, 0);
+     border-color: rgb(255, 204, 0); 
 }
 
 [data-entity][data-entity="work_of_art"]::after {
-     background: rgb(255, 204, 0);
+     background: rgb(255, 204, 0); 
 }
 
 [data-entity][data-entity="language"] {
      background: rgba(255, 204, 0, 0.2);
-     border-color: rgb(255, 204, 0);
+     border-color: rgb(255, 204, 0); 
 }
 
 [data-entity][data-entity="language"]::after {
-     background: rgb(255, 204, 0);
+     background: rgb(255, 204, 0); 
 }
 
-[data-entity][data-entity="eve"] {
+[data-entity][data-entity="date"] {
      background: rgba(47, 187, 171, 0.2);
-     border-color: rgb(47, 187, 171);
+     border-color: rgb(47, 187, 171); 
 }
 
-[data-entity][data-entity="eve"]::after {
-     background: rgb(47, 187, 171);
+[data-entity][data-entity="date"]::after {
+     background: rgb(47, 187, 171); 
 }
 
 [data-entity][data-entity="tim"] {
      background: rgba(47, 187, 171, 0.2);
-     border-color: rgb(47, 187, 171);
+     border-color: rgb(47, 187, 171); 
 }
 
 [data-entity][data-entity="tim"]::after {
-     background: rgb(47, 187, 171);
+     background: rgb(47, 187, 171); 
 }
 
 [data-entity][data-entity="percent"] {
      background: rgba(153, 153, 153, 0.2);
-     border-color: rgb(153, 153, 153);
+     border-color: rgb(153, 153, 153); 
 }
 
 [data-entity][data-entity="percent"]::after {
-     background: rgb(153, 153, 153);
+     background: rgb(153, 153, 153); 
 }
 
-[data-entity][data-entity="nat"] {
+[data-entity][data-entity="money"] {
      background: rgba(153, 153, 153, 0.2);
-     border-color: rgb(153, 153, 153);
+     border-color: rgb(153, 153, 153); 
 }
 
-[data-entity][data-entity="nat"]::after {
-     background: rgb(153, 153, 153);
+[data-entity][data-entity="money"]::after {
+     background: rgb(153, 153, 153); 
 }
 
 [data-entity][data-entity="quantity"] {
      background: rgba(153, 153, 153, 0.2);
-     border-color: rgb(153, 153, 153);
+     border-color: rgb(153, 153, 153); 
 }
 
 [data-entity][data-entity="quantity"]::after {
-     background: rgb(153, 153, 153);
+     background: rgb(153, 153, 153); 
 }
 
 [data-entity][data-entity="ordinal"] {
      background: rgba(153, 153, 153, 0.2);
-     border-color: rgb(153, 153, 153);
+     border-color: rgb(153, 153, 153); 
 }
 
 [data-entity][data-entity="ordinal"]::after {
-     background: rgb(153, 153, 153);
+     background: rgb(153, 153, 153); 
 }
 
 [data-entity][data-entity="cardinal"] {
      background: rgba(153, 153, 153, 0.2);
-     border-color: rgb(153, 153, 153);
+     border-color: rgb(153, 153, 153); 
 }
 
 [data-entity][data-entity="cardinal"]::after {
-     background: rgb(153, 153, 153);
+     background: rgb(153, 153, 153); 
 }

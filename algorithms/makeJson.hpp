@@ -46,9 +46,22 @@ private:
 		fin.close();
 		fin.open("./NER.txt", ios::in);
 		while (getline(fin, s)) {
+
 			string nowNER,nowType,nowWord;
 
 			if (s.empty()) continue;
+			if (s.size() < 3) continue;
+			if ((!(s[2] != '(' && s.back() != ')')) && (!(s[2] == '(' && s.back() == ')'))) 
+				continue;
+			int lgcnt = 0,rgcnt=0;
+			for (int i = 0; i < s[i]; i++) {
+				if (s[i] == '(') lgcnt++;
+				if (s[i] == ')') rgcnt++;
+			}
+			if (lgcnt > 1) 
+				continue;
+			if (rgcnt > 1) 
+				continue;
 			if (s[0] != ' ' || s[1] != ' ') {
 				continue;
 			}
@@ -70,6 +83,12 @@ private:
 					for (i++; s[i] != ')' && s[i] != ' '; i++) {
 						nowType.push_back(s[i]);
 					}
+					if (weight.find(fresh(nowWord)) == weight.end()) {
+						v.push_back(feature(0, nowWord, nowType, nowNER));
+					}
+					else {
+						v.push_back(feature(weight[fresh(nowWord)], nowWord, nowType, nowNER));
+					}
 					if (s[i] == ')') break;
 				}
 			}
@@ -85,14 +104,15 @@ private:
 				for (i++; i<s.size() ; i++) {
 					nowType.push_back(s[i]);
 				}
+				if (weight.find(fresh(nowWord)) == weight.end()) {
+					v.push_back(feature(0, nowWord, nowType, nowNER));
+				}
+				else {
+					v.push_back(feature(weight[fresh(nowWord)], nowWord, nowType, nowNER));
+				}
 			}
 			
-			if (weight.find(fresh(nowWord)) == weight.end()) {
-				v.push_back(feature(0, nowWord, nowType, nowNER));
-			}
-			else {
-				v.push_back(feature(weight[fresh(nowWord)], nowWord, nowType, nowNER));
-			}
+			
 		}
 		fin.close();
 	}

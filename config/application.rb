@@ -1,6 +1,7 @@
 require_relative 'boot'
 
 require "rails"
+require 'neo4j/railtie'
 # Pick the frameworks you want:
 require "active_model/railtie"
 require "active_job/railtie"
@@ -27,5 +28,7 @@ module Mimir
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    config.neo4j.session_type = :server_db
+    config.neo4j.session_path = ENV['NEO4J_URL'] || 'http://localhost:7475'
   end
 end

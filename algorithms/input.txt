@@ -1,13 +1,12 @@
-Facebook boss Mark Zuckerberg has been called on by a parliamentary committee to give evidence about the use of personal data by Cambridge Analytica.
-
-The consulting firm is accused of harvesting the data of 50 million Facebook users without permission and failing to delete it when told to.
-
-Damian Collins, the chairman of the Commons inquiry into fake news, accused Facebook of "misleading" the committee.
-
-London-based firm Cambridge Analytica denies any wrongdoing.
-
-Both companies are under scrutiny following claims by a whistleblower, Christopher Wylie, who worked with Cambridge Analytica and alleges it amassed large amounts of data through a personality quiz on Facebook called This is Your Digital Life.
-
-He claims that 270,000 people took the quiz, but the data of some 50 million users, mainly in the US, was harvested without their explicit consent via their friend networks.
-
-Mr Wylie says that data was sold to Cambridge Analytica, which then used it to psychologically profile people and deliver pro-Trump material to them, with a view to influencing the outcome of the 2016 presidential election.
+Compaptible with the Neo4j data format and the D3.js data format.
+Force simulation.
+Info panel that shows nodes and relationships information on hover.
+Double click callbacks.
+Custom node colors by node type.
+Text nodes + Font Awesome icon nodes + SVG image nodes (e.g. using Twitter Emoji)).
+Sticky nodes (drag to stick, single click to unstick).
+Dynamic graph update (e.g. double click a node to expand it).
+Highlight nodes on init.
+Relationship auto-orientation.
+Zoom, pan, auto fit.
+Compatible with D3.js v4.

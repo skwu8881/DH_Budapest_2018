@@ -54,6 +54,10 @@ gem 'bootstrap-sass'
 
 gem 'jquery-rails'
 
+gem 'neo4j'
+
+gem 'neo4j-rake_tasks'
+
 group :development do
   gem 'capistrano'
   gem 'capistrano-rails'

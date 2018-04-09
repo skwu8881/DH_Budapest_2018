@@ -4,11 +4,47 @@ class TextminingController < ApplicationController
   def index
   end
 
-  def submit_article
+  def transaction
+    require "neo4j-core"
+
+    # Session
+    session = Neo4j::Session.open(:server_db)
+
+    # Label/Index
+    labels = %w(Text Geographic Organization Person Geopolitical Time Artifact Event Phenomenon)
+    lshort = %w(txt geo org per gpe tim art eve nat)
+    lshort2label = lshort.zip(labels).to_h
+
+    labels.each do |label|
+      Neo4j::Label.create(label).create_index(:name)
+    end
+
+    # Parse NER json
+    ner_json = File.open("algorithms/Json.txt").each_line.map(&:to_s).join
+    nj = JSON.parse(ner_json).to_a.reject { |i| i['word'].match?(/\A[`'"]+\z/) rescue true }
+
+    Neo4j::Transaction.run do
+      # Deletes all nodes
+      all_nodes = Neo4j::Session.query("MATCH (n) RETURN n")
+      all_nodes.each { |n| n.first.delete }
+
+      this_news = Neo4j::Node.create({name: 'Text'}, 'Text')
+
+      # Creates nodes and sets relations
+      nj.each do |u|
+        if lshort.include?(u['cate'])
+          node = Neo4j::Node.create({name: u['word']}, lshort2label[u['cate']])
+          this_news.create_rel(('has_' + u['cate']).to_sym, node)
+        end
+      end
+    end
+  end
+
+  def submit_article # TODO: ban pushing the button before any procedure has finished
     File.open("algorithms/input.txt", "w") { |f| f.write(params[:article]) }
-    puts `python3 algorithms/myNER2.py`
-    c_query = Thread.new { `algorithms/query` }
-    c_query.join
+    `python3 algorithms/myNER2.py`
+    `algorithms/query`
+    transaction
     s = File.open("algorithms/resultWeight.txt").each_line.map(&:split).map { |s| s.join ?, } .join(?\n)
     File.open("public/flare.csv", 'w') { |f| f.write("id,value\n" + s) }
     respond_to do |f|

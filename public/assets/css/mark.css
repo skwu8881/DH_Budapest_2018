@@ -96,21 +96,21 @@
      background: rgb(142, 125, 255); 
 }
 
-[data-entity][data-entity="event"] {
+[data-entity][data-entity="eve"] {
      background: rgba(255, 204, 0, 0.2);
      border-color: rgb(255, 204, 0); 
 }
 
-[data-entity][data-entity="event"]::after {
+[data-entity][data-entity="eve"]::after {
      background: rgb(255, 204, 0); 
 }
 
-[data-entity][data-entity="work_of_art"] {
+[data-entity][data-entity="art"] {
      background: rgba(255, 204, 0, 0.2);
      border-color: rgb(255, 204, 0); 
 }
 
-[data-entity][data-entity="work_of_art"]::after {
+[data-entity][data-entity="art"]::after {
      background: rgb(255, 204, 0); 
 }
 

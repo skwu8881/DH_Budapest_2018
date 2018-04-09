@@ -28,23 +28,54 @@ class TextminingController < ApplicationController
       all_nodes = Neo4j::Session.query("MATCH (n) RETURN n")
       all_nodes.each { |n| n.first.delete }
 
-      this_news = Neo4j::Node.create({name: 'Text'}, 'Text')
+      # this_news = Neo4j::Node.create({name: 'Text'}, 'Text')
 
       # Creates nodes and sets relations
+=begin
       nj.each do |u|
         if lshort.include?(u['cate'])
           node = Neo4j::Node.create({name: u['word']}, lshort2label[u['cate']])
           this_news.create_rel(('has_' + u['cate']).to_sym, node)
         end
       end
+=end
+      st = 0
+      until st >= nj.size
+        w2tag = {}
+        tag2ws = Hash.new { |h, k| h[k] = Array.new }
+        w2cnt = Hash.new { |h, k| h[k] = 0 }
+        w2node = {}
+        ed = st
+        cl = 0
+        until cl == 10000 || ed == nj.size
+          ed += 1 until ed == nj.size || nj[ed]['word'] == ?.
+          cl += 1
+        end
+        (st...ed).each do |i|
+          if lshort.include?(nj[i]['cate'])
+            w2tag[nj[i]['word']] = nj[i]['cate']
+            tag2ws[nj[i]['cate']] << nj[i]['word']
+            w2cnt[nj[i]['word']] += 1
+            w2node[nj[i]['word']] = Neo4j::Node.create({name: nj[i]['word']}, lshort2label[nj[i]['cate']])
+          end
+        end
+        x = w2tag.to_a
+        x.size.times do |i|
+          (i + 1).upto(x.size - 1) do |j|
+            next if x[j][1] == x[i][1]
+            w2node[x[i][0]].create_rel(:-, w2node[x[j][0]])
+            w2node[x[j][0]].create_rel(:-, w2node[x[i][0]])
+          end
+        end
+        st = ed + 1
+      end
     end
   end
 
-  def submit_article # TODO: ban pushing the button before any procedure has finished
+  def submit_article
     File.open("algorithms/input.txt", "w") { |f| f.write(params[:article]) }
     `python3 algorithms/myNER2.py`
     `algorithms/query`
-    transaction
     s = File.open("algorithms/resultWeight.txt").each_line.map(&:split).map { |s| s.join ?, } .join(?\n)
     File.open("public/flare.csv", 'w') { |f| f.write("id,value\n" + s) }
     respond_to do |f|
@@ -54,9 +85,9 @@ class TextminingController < ApplicationController
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
-var svg = d3.select("svg"),
-    width = +svg.attr("width"),
-    height = +svg.attr("height");
+var svg_bubble = d3.select("svg"),
+    width = +svg_bubble.attr("width"),
+    height = +svg_bubble.attr("height");
 
 var format = d3.format(",d");
 
@@ -83,7 +114,7 @@ d3.csv("flare.csv", function(d) {
         }
       });
 
-  var node = svg.selectAll(".node")
+  var node = svg_bubble.selectAll(".node")
     .data(pack(root).leaves())
     .enter().append("g")
       .attr("class", "node")
@@ -115,7 +146,7 @@ d3.csv("flare.csv", function(d) {
 </script>
 EOS
 tags_html:
-<<-EOS
+<<-EOS,
 #{
 n = File.open("algorithms/input.txt").each_line.map(&:to_s).join ?\n
 s = File.open("algorithms/Json.txt").each_line.map(&:to_s).join
@@ -139,7 +170,119 @@ end
 res += '</div>'
 }
 EOS
-        }
+network_html:
+<<-'EOS'
+<style>
+
+.link line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.labels text {
+  pointer-events: none;
+  font: 10px sans-serif;
+}
+
+</style>
+<div id="svg_graph"></div>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="assets/js/d3-ellipse-force.js"></script>
+<script src="graph.js"></script>
+<script>
+
+var svg_graph = d3.select("#svg_graph").append("svg").style("width", 960).style("height", 600),
+    width = 960,
+    height = 600;
+
+var color = d3.scaleOrdinal(d3.schemeCategory20);
+
+var nd;
+for (var i=0; i<graph.nodes.length; i++) {
+  nd = graph.nodes[i];
+  nd.rx = nd.id.length * 4.5; 
+  nd.ry = 12;
+} 
+
+var simulation = d3.forceSimulation()
+    .force("link", d3.forceLink().id(function(d) { return d.id; }))
+    .force("collide", d3.ellipseForce(6, 0.5, 5))
+    .force("center", d3.forceCenter(width / 2, height / 2));
+
+var link = svg_graph.append("g")
+    .attr("class", "link")
+  .selectAll("line")
+  .data(graph.links)
+  .enter().append("line")
+    .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
+
+var node = svg_graph.append("g")
+    .attr("class", "node")
+  .selectAll("ellipse")
+  .data(graph.nodes)
+  .enter().append("ellipse")  
+    .attr("rx", function(d) { return d.rx; })
+    .attr("ry", function(d) { return d.ry; })
+    .attr("fill", function(d) { return color(d.group); })
+    .call(d3.drag()
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended));
+
+var text = svg_graph.append("g")
+    .attr("class", "labels")
+  .selectAll("text")
+  .data(graph.nodes)
+  .enter().append("text")  
+    .attr("dy", 2)
+    .attr("text-anchor", "middle")
+    .text(function(d) {return d.id})
+    .attr("fill", "white");
+
+
+simulation
+  .nodes(graph.nodes)
+  .on("tick", ticked);
+
+simulation.force("link")
+     .links(graph.links);
+
+function ticked() {
+  link
+      .attr("x1", function(d) { return d.source.x; })
+      .attr("y1", function(d) { return d.source.y; })
+      .attr("x2", function(d) { return d.target.x; })
+      .attr("y2", function(d) { return d.target.y; });
+
+  node
+      .attr("cx", function(d) { return d.x; })
+      .attr("cy", function(d) { return d.y; });
+  text
+      .attr("x", function(d) { return d.x; })
+      .attr("y", function(d) { return d.y; });
+
+}
+
+function dragstarted(d) {
+  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+  d.fx = d.x;
+  d.fy = d.y;
+}
+
+function dragged(d) {
+  d.fx = d3.event.x;
+  d.fy = d3.event.y;
+}
+
+function dragended(d) {
+  if (!d3.event.active) simulation.alphaTarget(0);
+  d.fx = null;
+  d.fy = null;
+}
+
+</script>
+EOS
+        } # FIXME: there seems to be a constraint on input size
       }
     end
   end

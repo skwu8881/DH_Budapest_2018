@@ -43,12 +43,12 @@ private:
 		fstream fin;
 		string s;
 		double w;
-		fin.open("./resultWeight.txt", ios::in);
+		fin.open("algorithms/resultWeight.txt", ios::in);
 		while (fin >> s >> w) {
 			weight[s] = w;
 		}
 		fin.close();
-		fin.open("./NER.txt", ios::in);
+		fin.open("algorithms/NER.txt", ios::in);
 		while (getline(fin, s)) {
 
 			string nowNER,nowType,nowWord;
@@ -208,9 +208,9 @@ public:
 		// Json.txt
 
 		fstream fout;
-		fout.open("./Json.txt",ios::out);
+		fout.open("algorithms/Json.txt",ios::out);
 		fout.close();
-		fout.open("./Json.txt", ios::out | ios::app);
+		fout.open("algorithms/Json.txt", ios::out | ios::app);
 		fout << '['<<endl;
 		for (int i = 0; i < v.size();i++) {
 			feature f = v[i];
@@ -228,10 +228,10 @@ public:
 
 		// graph.js
 
-		fstream fout;
-		fout.open("./graph.js", ios::out);
+		// fstream fout;
+		fout.open("public/graph.js", ios::out);
 		fout.close();
-		fout.open("./graph.js", ios::out | ios::app);
+		fout.open("public/graph.js", ios::out | ios::app);
 		fout << "var graph = {" << endl;
 		fout << "  \"nodes\": [" << endl;
 		int cnt = 0;

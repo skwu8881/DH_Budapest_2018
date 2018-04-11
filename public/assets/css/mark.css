@@ -42,12 +42,12 @@
      background: rgb(166, 226, 45); 
 }
 
-[data-entity][data-entity="norp"] {
+[data-entity][data-entity="nat"] {
      background: rgba(224, 0, 132, 0.2);
      border-color: rgb(224, 0, 132); 
 }
 
-[data-entity][data-entity="norp"]::after {
+[data-entity][data-entity="nat"]::after {
      background: rgb(224, 0, 132); 
 }
 

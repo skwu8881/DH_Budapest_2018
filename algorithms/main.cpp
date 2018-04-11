@@ -8,7 +8,7 @@ int main() {
 	//db->build();
 	CInputQuery *iq = new CInputQuery;
 	CJson *js = new CJson;
-	iq->readFile("./input.txt");
+	iq->readFile("algorithms/input.txt");
 	iq->askWeight();
 	js->makeJson();
 	return 0;

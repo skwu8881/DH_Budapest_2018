@@ -1,205 +1,142 @@
 (S
-  (gpe Russia/NN)
-  has/VBZ
-  urged/VBN
-  the/DT
-  (geo US/NNP)
-  to/TO
-  avoid/VB
-  taking/VBG
+  (geo Syria/NNP)
+  'chemical/JJ
+  attack/NN
+  '/POS
+  :/:
+  (nat US/NNS)
+  weighs/VBP
+  up/RP
   military/JJ
-  action/NN
+  response/NN
+  (tim 34/CD minutes/NNS)
+  ago/RB
+  (tim Share/NNP)
+  this/DT
+  with/IN
+  (geo Facebook/NNP Share/NNP)
+  this/DT
+  with/IN
+  (geo Twitter/NNP Share/NNP)
+  this/DT
+  with/IN
+  (geo Messenger/NNP Share/NNP)
+  this/DT
+  with/IN
+  (org Email/NNP Share/NNP Related/NNP TopicsSyrian/NNP civil/JJ)
+  war/NN
+  (per Image/NNP copyrightAFP/NN)
+  (tim Image/NNP caption/NN)
+  (org The/DT US/NNP Navy/NNP guided-missile/JJ)
+  (tim destroyer/NN)
+  ,/,
+  the/DT
+  (org USS/NNP Donald/NNP)
+  (per Cook/NNP)
+  ,/,
+  is/VBZ
+  in/IN
+  the/DT
+  (org Mediterranean/NNP Sea/NNP The/DT US/NNP)
+  says/VBZ
+  ``/``
+  all/DT
+  options/NNS
+  are/VBP
+  on/IN
+  the/DT
+  (org table/NN)
+  (tim ''/'')
   in/IN
   response/NN
   to/TO
-  an/DT
-  alleged/VBN
+  a/DT
+  suspected/JJ
   chemical/NN
-  attack/NN
+  weapons/NNS
+  attack/VBP
   in/IN
   (geo Syria/NNP)
-  ./.
-  ``/``
-  (eve I/PRP would/MD)
-  once/RB
-  again/RB
-  beseech/VB
-  you/PRP
-  to/TO
-  refrain/VB
-  from/IN
-  the/DT
-  plans/NNS
-  that/IN
-  you/PRP
-  're/VBP
-  currently/RB
-  developing/VBG
   ,/,
-  (per ''/'')
-  (geo Moscow/NNP)
-  (org 's/POS UN/NNP envoy/CC)
-  (per Vasily/NNP Nebenzia/NNP)
-  said/VBD
-  on/IN
-  (tim Tuesday/NNP)
+  as/IN
+  Western/JJ
+  leaders/NNS
+  continue/VBP
+  to/TO
+  weigh/VB
+  up/RP
+  military/JJ
+  action/NN
   ./.
-  He/PRP
-  warned/VBD
-  (geo Washington/NNP)
+  (org White/NNP House/NNP spokeswoman/NN)
+  (per Sarah/NNP Sanders/NNP)
+  told/VBD
+  reporters/NNS
   that/IN
-  it/PRP
-  will/MD
-  ``/``
-  (eve bear/VB)
-  (nat responsibility/NN)
-  (tim ''/'')
-  for/IN
-  any/DT
-  ``/``
-  illegal/JJ
-  (art military/JJ)
-  adventure/NN
-  (tim ''/'')
-  it/PRP
-  carries/VBZ
-  out/RP
+  no/DT
+  final/JJ
+  decision/NN
+  had/VBD
+  been/VBN
+  taken/VBN
+  on/IN
+  military/JJ
+  strikes/NNS
   ./.
   But/CC
-  (gpe Western/JJ)
-  leaders/NNS
-  say/VBP
-  they/PRP
-  have/VBP
-  agreed/VBN
-  to/TO
-  work/VB
-  together/RB
-  to/TO
-  target/VB
-  those/DT
+  she/PRP
+  said/VBD
+  the/DT
+  (org US/NNP)
+  holds/VBZ
+  (geo Russia/NNP)
+  and/CC
+  (geo Syria/NNP)
   responsible/JJ
   for/IN
   the/DT
-  attack/NN
-  in/IN
-  (geo Douma/NNP)
+  incident/NN
   ./.
-  (gpe French/JJ)
-  (per President/NNP Emmanuel/NNP Macron/NNP)
-  said/VBD
-  any/DT
-  strikes/NNS
-  would/MD
-  target/VB
-  (gpe Syrian/JJ)
-  government/NN
-  chemical/NN
-  facilities/NNS
-  ./.
-  (org UK/NNP)
-  agrees/VBZ
-  (geo Syria/NNP)
-  action/NN
-  with/IN
-  (geo US/NNP)
-  and/CC
-  (geo France/NNP Syria/NNP)
-  (gpe 'chemical/JJ)
-  (tim attack/NN '/'' :/:)
-  (nat What/WP we/PRP)
-  (nat know/VBP)
-  (org Why/WRB)
+  The/DT
+  (org US/NNP National/NNP Security/NNP Council/NNP)
   is/VBZ
-  there/RB
-  a/DT
-  war/NN
-  in/IN
-  (geo Syria/NNP)
-  ?/.
-  The/DT
-  warning/NN
-  from/IN
-  (geo Moscow/NNP)
-  came/VBD
-  during/IN
-  a/DT
-  divided/JJ
-  meeting/NN
-  of/IN
-  the/DT
-  (org UN/NNP Security/NNP Council/NNP)
-  in/IN
-  which/WDT
-  a/DT
-  proposal/NN
   to/TO
-  open/VB
-  a/DT
-  new/JJ
-  inquiry/NN
-  into/IN
-  the/DT
-  alleged/VBN
-  attack/NN
-  failed/VBD
-  to/TO
-  pass/VB
-  ./.
-  (org Russia/NNP)
-  vetoed/VBD
-  the/DT
-  (org US-drafted/JJ)
-  resolution/NN
-  and/CC
-  (geo China/NNP abstained/VBD)
-  ./.
-  A/DT
-  counter-measure/NN
-  proposed/VBN
-  by/IN
-  (geo Moscow/NNP)
-  also/RB
-  failed/VBD
-  to/TO
-  garner/VB
-  enough/JJ
-  support/NN
-  ./.
-  The/DT
-  (gpe US/NNP)
-  proposal/NN
-  called/VBN
-  for/IN
-  an/DT
-  independent/JJ
-  investigation/NN
-  into/IN
-  claims/NNS
-  that/WDT
-  (gpe Syrian/JJ)
-  (per President/NNP Bashar/NNP al-Assad/NN)
-  's/POS
-  regime/NN
-  carried/VBD
-  out/IN
-  the/DT
-  suspected/JJ
-  chemical/JJ
-  attack/NN
+  meet/VB
   on/IN
+  (tim Thursday/NNP)
+  ,/,
+  while/IN
+  (org UK/NNP PM/NNP Theresa/NNP May/NNP)
+  has/VBZ
+  called/VBN
+  a/DT
+  cabinet/NN
+  meeting/NN
+  ./.
+  (tim Activists/NNS ,/,)
+  rescue/NN
+  workers/NNS
+  and/CC
+  medics/NNS
+  say/VBP
+  dozens/NNS
+  of/IN
+  people/NNS
+  died/VBN
+  in/IN
   the/DT
   rebel-held/JJ
   town/NN
   of/IN
   (geo Douma/NNP)
-  ,/,
-  in/IN
-  the/DT
-  (org Eastern/NNP Ghouta/NNP region/NN)
+  on/IN
+  (tim Saturday/NNP)
   ./.
-  (geo Syria/NNP)
-  (tim -/:)
+  (org ADVERTISEMENT/NNP But/CC)
+  (per President/NNP Bashar/NNP al-Assad/NN)
+  's/POS
+  government/NN
+  -/:
   which/WDT
   receives/VBZ
   military/JJ
@@ -213,6 +150,499 @@
   any/DT
   chemical/JJ
   attack/NN
+  ./.
+  (geo Syria/NNP)
+  (gpe 'chemical/JJ)
+  (tim attack/NN '/'' :/:)
+  (nat What/WP we/PRP)
+  (nat know/VBP)
+  (nat WHO/WP)
+  demands/VBZ
+  'chemical/JJ
+  attack/NN
+  site/NN
+  '/''
+  access/NN
+  (art Viewpoint/NN :/:)
+  (art Chemical/NNP weapons/NNS)
+  ‘/VBP
+  threat/NN
+  to/TO
+  (geo West/NNP ’/NN)
+  (tim ''/'')
+  (org The/DT)
+  president/NN
+  has/VBZ
+  a/DT
+  number/NN
+  of/IN
+  options/NNS
+  at/IN
+  his/PRP$
+  disposal/NN
+  and/CC
+  a/DT
+  number/NN
+  remain/NN
+  on/IN
+  the/DT
+  (tim table/NN ,/, ''/'')
+  (per Ms/NNP Sanders/NNP)
+  said/VBD
+  during/IN
+  a/DT
+  briefing/NN
+  on/IN
+  (tim Wednesday/NNP evening/NN)
+  ./.
+  ``/``
+  (eve We/PRP have/VBP)
+  n't/RB
+  laid/VBN
+  out/RP
+  any/DT
+  specific/JJ
+  actions/NNS
+  we/PRP
+  plan/VBP
+  to/TO
+  take/VB
+  ,/,
+  ''/''
+  she/PRP
+  added/VBD
+  ./.
+  The/DT
+  comments/NNS
+  appear/VBP
+  to/TO
+  row/VB
+  back/RB
+  on/IN
+  (per President/NNP Donald/NNP Trump/NNP)
+  (org 's/POS)
+  earlier/JJR
+  warning/VBG
+  to/TO
+  (geo Russia/NNP)
+  that/IN
+  it/PRP
+  should/MD
+  ``/``
+  (eve get/VB)
+  ready/JJ
+  (tim ''/'')
+  for/IN
+  missile/NN
+  strikes/NNS
+  in/IN
+  (geo Syria/NNP)
+  ./.
+  (eve ``/`` Get/NNP ready/JJ)
+  (geo Russia/NNP)
+  ,/,
+  because/IN
+  they/PRP
+  will/MD
+  be/VB
+  coming/VBG
+  ,/,
+  nice/RB
+  and/CC
+  new/JJ
+  and/CC
+  (tim 'smart/JJ !/. '/'' ''/'')
+  (per Mr/NNP Trump/NNP)
+  said/VBD
+  in/IN
+  an/DT
+  early/JJ
+  morning/NN
+  tweet/NN
+  on/IN
+  (tim Wednesday/NNP)
+  ./.
+  He/PRP
+  also/RB
+  called/VBD
+  the/DT
+  (gpe Syrian/JJ)
+  leader/NN
+  a/DT
+  ``/``
+  gas/NN
+  killing/VBG
+  animal/JJ
+  (tim ''/'' ./.)
+  (art Skip/NNP Twitter/NNP)
+  (tim post/NN)
+  by/IN
+  (tim @/NNP realDonaldTrump/NN)
+  (per Donald/NNP J./NNP Trump/NNP ✔/NNP)
+  (tim @/NNP realDonaldTrump/NN)
+  (geo Russia/NNP)
+  vows/VBZ
+  to/TO
+  shoot/VB
+  down/RP
+  any/DT
+  and/CC
+  all/DT
+  missiles/NNS
+  fired/VBN
+  at/IN
+  (geo Syria/NNP)
+  ./.
+  (per Get/NNP ready/JJ)
+  (geo Russia/NNP)
+  ,/,
+  because/IN
+  they/PRP
+  will/MD
+  be/VB
+  coming/VBG
+  ,/,
+  nice/RB
+  and/CC
+  new/JJ
+  and/CC
+  (gpe “/JJ)
+  (tim smart/NN !/. ”/NN You/PRP shouldn/VBP)
+  (art ’/JJ)
+  (tim t/NN)
+  be/VB
+  partners/NNS
+  with/IN
+  a/DT
+  (org Gas/NNP Killing/NNP Animal/NNP who/WP)
+  kills/VBZ
+  his/PRP$
+  people/NNS
+  and/CC
+  enjoys/VBZ
+  it/PRP
+  !/.
+  (eve 6:57/CD)
+  (art PM/NNP)
+  (tim -/: Apr/NNP 11/CD ,/, 2018/CD 153K/CD 124K/CD)
+  people/NNS
+  are/VBP
+  talking/VBG
+  about/IN
+  this/DT
+  (org Twitter/NNP Ads/NNP info/NN)
+  and/CC
+  privacy/NN
+  (per Report/NNP End/NNP)
+  (tim of/IN)
+  (geo Twitter/NNP post/NN)
+  by/IN
+  (tim @/NNP realDonaldTrump/VB)
+  (eve What/WP happens/VBZ)
+  next/JJ
+  ?/.
+  The/DT
+  (org US/NNP)
+  ,/,
+  (org UK/NNP)
+  and/CC
+  (geo France/NNP)
+  have/VBP
+  agreed/VBN
+  to/TO
+  work/VB
+  together/RB
+  and/CC
+  are/VBP
+  believed/VBN
+  to/TO
+  be/VB
+  preparing/VBG
+  for/IN
+  a/DT
+  military/JJ
+  strike/NN
+  in/IN
+  response/NN
+  to/TO
+  the/DT
+  alleged/VBN
+  chemical/NN
+  attack/NN
+  at/IN
+  the/DT
+  weekend/NN
+  ./.
+  (per Defence/NNP Secretary/NNP James/NNP Mattis/NNP)
+  said/VBD
+  the/DT
+  (org US/NNP)
+  was/VBD
+  still/RB
+  assessing/VBG
+  the/DT
+  chemical/NN
+  attack/NN
+  ,/,
+  but/CC
+  added/VBD
+  that/IN
+  the/DT
+  military/JJ
+  stood/VBD
+  ready/JJ
+  ``/``
+  to/TO
+  provide/VB
+  military/JJ
+  options/NNS
+  if/IN
+  they/PRP
+  are/VBP
+  appropriate/JJ
+  as/IN
+  the/DT
+  president/NN
+  determines/NNS
+  (tim ''/'')
+  ./.
+  The/DT
+  (org White/NNP House/NNP)
+  said/VBD
+  the/DT
+  president/NN
+  had/VBD
+  not/RB
+  laid/VBN
+  down/RP
+  a/DT
+  specific/JJ
+  timetable/NN
+  for/IN
+  when/WRB
+  military/JJ
+  strikes/NNS
+  may/MD
+  take/VB
+  place/NN
+  ./.
+  A/DT
+  (gpe US/JJ)
+  (org Navy/NNP guided-missile/NN)
+  (tim destroyer/NN)
+  ,/,
+  the/DT
+  (org USS/NNP Donald/NNP)
+  (per Cook/NNP)
+  ,/,
+  is/VBZ
+  in/IN
+  the/DT
+  (org Mediterranean/NNP Sea/NNP)
+  ./.
+  In/IN
+  the/DT
+  (org UK/NNP)
+  ,/,
+  sources/NNS
+  told/VBD
+  the/DT
+  (tim BBC/NNP)
+  that/IN
+  (per Prime/NNP Minister/NNP Theresa/NNP May/NNP)
+  looked/VBD
+  ready/JJ
+  to/TO
+  join/VB
+  military/JJ
+  action/NN
+  in/IN
+  (geo Syria/NNP)
+  without/IN
+  seeking/VBG
+  parliamentary/JJ
+  consent/NN
+  first/RB
+  ./.
+  (per Mrs/NNP May/NNP)
+  is/VBZ
+  reluctant/JJ
+  to/TO
+  ask/VB
+  the/DT
+  (geo US/NNP)
+  to/TO
+  hold/VB
+  off/RP
+  any/DT
+  action/NN
+  until/IN
+  she/PRP
+  has/VBZ
+  the/DT
+  opportunity/NN
+  to/TO
+  consult/VB
+  (geo MPs/NNP)
+  ,/,
+  the/DT
+  (org BBC/NNP understands/NNPS)
+  ./.
+  (gpe French/JJ)
+  (per President/NNP Emmanuel/NNP Macron/NNP will/MD)
+  reportedly/RB
+  decide/VB
+  on/IN
+  a/DT
+  response/NN
+  in/IN
+  the/DT
+  coming/JJ
+  days/NNS
+  ./.
+  He/PRP
+  has/VBZ
+  said/VBD
+  any/DT
+  strikes/NNS
+  would/MD
+  target/VB
+  the/DT
+  (gpe Syrian/JJ)
+  government/NN
+  's/POS
+  ``/``
+  (tim chemical/NN capabilities/NNS ''/'')
+  ./.
+  (tim Meanwhile/RB ,/,)
+  (gpe UN/NNP)
+  (per Secretary/NNP General/NNP Antonio/NNP Guterres/NNP)
+  has/VBZ
+  warned/VBN
+  of/IN
+  the/DT
+  need/NN
+  to/TO
+  avoid/VB
+  the/DT
+  situation/NN
+  ``/``
+  spiralling/VBG
+  out/IN
+  of/IN
+  control/NN
+  (tim ''/'')
+  ./.
+  (eve What/WP happened/VBD)
+  in/IN
+  (geo Douma/NNP ?/. Opposition/NNP activists/NNS)
+  and/CC
+  rescuers/NNS
+  say/VBP
+  government/NN
+  aircraft/NN
+  dropped/VBD
+  bombs/NNS
+  filled/VBN
+  with/IN
+  toxic/JJ
+  chemicals/NNS
+  on/IN
+  the/DT
+  town/NN
+  ,/,
+  the/DT
+  last/JJ
+  major/JJ
+  rebel/NN
+  stronghold/NN
+  near/IN
+  the/DT
+  capital/NN
+  (tim Damascus/NNP)
+  ./.
+  (per Media/NNP)
+  (art captionUnverified/VBD)
+  video/NN
+  shows/NNS
+  children/NNS
+  being/VBG
+  treated/VBN
+  after/IN
+  the/DT
+  alleged/VBN
+  gas/NN
+  attack/NN
+  The/DT
+  (org Syrian-American/JJ Medical/NNP Society/NNP (/()
+  (per Sams/NNP )/))
+  ,/,
+  which/WDT
+  operates/VBZ
+  in/IN
+  rebel-held/JJ
+  areas/NNS
+  ,/,
+  and/CC
+  local/JJ
+  aid/NN
+  workers/NNS
+  said/VBD
+  more/JJR
+  than/IN
+  500/CD
+  people/NNS
+  had/VBD
+  been/VBN
+  treated/VBN
+  for/IN
+  symptoms/NNS
+  ``/``
+  indicative/JJ
+  of/IN
+  exposure/NN
+  to/TO
+  a/DT
+  (org chemical/NN)
+  (tim agent/NN ''/'')
+  ./.
+  On/IN
+  (tim Wednesday/NNP)
+  ,/,
+  the/DT
+  (org UN/NNP 's/POS)
+  (org World/NNP Health/NNP Organization/NNP)
+  demanded/VBD
+  access/NN
+  to/TO
+  verify/VB
+  reports/NNS
+  from/IN
+  its/PRP$
+  partners/NNS
+  ,/,
+  which/WDT
+  include/VBP
+  (geo Sams/NNP)
+  ,/,
+  that/IN
+  70/CD
+  people/NNS
+  had/VBD
+  died/VBN
+  -/:
+  including/VBG
+  43/CD
+  who/WP
+  showed/VBD
+  ``/``
+  symptoms/NNS
+  consistent/JJ
+  with/IN
+  exposure/NN
+  to/TO
+  highly/RB
+  (tim toxic/JJ chemicals/NNS ''/'')
   ./.
   A/DT
   team/NN
@@ -238,21 +668,224 @@
   weapons/NNS
   were/VBD
   used/VBN
-  in/IN
-  (geo Douma/NNP)
   ./.
-  But/CC
+  (per Douma/NNP was/VBD)
+  under/IN
+  renewed/VBN
+  assault/NN
+  from/IN
+  (geo Syrian/JJ)
+  and/CC
+  (gpe Russian/JJ)
+  forces/NNS
+  last/JJ
+  week/NN
+  ./.
+  Rebels/NNS
+  have/VBP
+  now/RB
+  been/VBN
+  evacuating/VBG
   the/DT
-  (org OPCW/NNP)
-  will/MD
-  not/RB
-  seek/VB
-  to/TO
-  establish/VB
-  who/WP
-  was/VBD
-  responsible/JJ
-  for/IN
+  town/NN
+  under/IN
+  an/DT
+  agreement/NN
+  involving/VBG
   the/DT
+  (gpe Russian/JJ)
+  military/NN
+  ./.
+  What/WP
+  is/VBZ
+  (geo Russia/NNP)
+  's/POS
+  position/NN
+  ?/.
+  It/PRP
+  has/VBZ
+  described/VBN
+  the/DT
+  reports/NNS
+  of/IN
+  the/DT
+  chemical/NN
   attack/NN
+  as/IN
+  a/DT
+  (org ``/``)
+  (tim provocation/NN)
+  (eve ''/'')
+  (tim designed/VBN)
+  to/TO
+  justify/VB
+  (gpe Western/JJ)
+  intervention/NN
+  against/IN
+  its/PRP$
+  ally/NN
+  ./.
+  (per Media/NNP captionThe/VBP)
+  (gpe US/NNP)
+  president/NN
+  has/VBZ
+  said/VBD
+  ``/``
+  nothing/NN
+  's/VBZ
+  off/IN
+  the/DT
+  (org table/NN)
+  (tim ''/'' -/: so/RB)
+  what/WP
+  options/NNS
+  are/VBP
+  on/IN
+  the/DT
+  table/NN
+  ?/.
+  It/PRP
+  said/VBD
+  on/IN
+  (tim Wednesday/NNP)
+  that/IN
+  samples/VBZ
+  taken/VBN
+  from/IN
+  the/DT
+  site/NN
+  had/VBD
+  not/RB
+  revealed/VBN
+  any/DT
+  chemical/NN
+  (tim substances/NNS)
+  ./.
+  (gpe Senior/JJ)
+  (gpe Russian/JJ)
+  figures/NNS
+  have/VBP
+  warned/VBN
+  of/IN
+  a/DT
+  (gpe Russian/JJ)
+  response/NN
+  to/TO
+  a/DT
+  US/NNP
+  attack/NN
+  ./.
+  On/IN
+  (tim Wednesday/NNP)
+  (per Alexander/NNP Zasypkin/NNP)
+  ,/,
+  (geo Moscow/NNP)
+  's/POS
+  ambassador/NN
+  to/TO
+  (geo Lebanon/NNP)
+  ,/,
+  repeated/VBD
+  a/DT
+  warning/NN
+  by/IN
+  the/DT
+  head/NN
+  of/IN
+  the/DT
+  military/JJ
+  that/IN
+  missiles/NNS
+  would/MD
+  be/VB
+  shot/VBN
+  down/RB
+  and/CC
+  their/PRP$
+  launch/NN
+  sites/NNS
+  targeted/VBN
+  if/IN
+  they/PRP
+  threatened/VBD
+  the/DT
+  lives/NNS
+  of/IN
+  (gpe Russian/JJ)
+  personnel/NNS
+  ./.
+  Also/RB
+  on/IN
+  (tim Wednesday/NNP)
+  ,/,
+  (gpe Russian/NNP)
+  foreign/JJ
+  ministry/NN
+  spokeswoman/NN
+  (per Maria/NNP Zakharova/NNP asked/VBD)
+  whether/IN
+  the/DT
+  aim/NN
+  of/IN
+  (geo Western/JJ)
+  strikes/NNS
+  might/MD
+  be/VB
+  ``/``
+  to/TO
+  quickly/RB
+  remove/VB
+  the/DT
+  traces/NNS
+  of/IN
+  the/DT
+  (org provocation/NN)
+  (tim .../: [/VBZ so/RB)
+  ]/JJ
+  international/JJ
+  inspectors/NNS
+  will/MD
+  have/VB
+  nothing/NN
+  to/TO
+  look/VB
+  for/IN
+  in/IN
+  terms/NNS
+  of/IN
+  evidence/NN
+  (tim ''/'')
+  ./.
+  (eve Addressing/VBG new/JJ)
+  ambassadors/NNS
+  in/IN
+  (geo Moscow/NNP)
+  ,/,
+  (per President/NNP Vladimir/NNP Putin/NNP)
+  said/VBD
+  he/PRP
+  hoped/VBD
+  common/JJ
+  sense/NN
+  would/MD
+  prevail/VB
+  and/CC
+  that/IN
+  the/DT
+  situation/NN
+  would/MD
+  stabilise/VB
+  ./.
+  (per Mr/NNP Putin/NNP)
+  said/VBD
+  (geo Russia/NNP)
+  would/MD
+  ``/``
+  keep/VB
+  all/DT
+  its/PRP$
+  international/JJ
+  obligations/NNS
+  in/IN
+  (tim full/JJ ''/'')
   ./.)

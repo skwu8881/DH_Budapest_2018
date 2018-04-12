@@ -26,6 +26,7 @@
 <div class="ui top attached tabular menu">
   <a class="active item" data-tab="tags">Tags</a>
   <a class="item" data-tab="statistics">Statistics</a>
+  <a class="item" data-tab="sentiment">Sentiment</a>
   <a class="item" data-tab="network">Network</a>
 </div>
 
@@ -34,6 +35,10 @@
 </div>
 
 <div class="ui bottom attached tab segment" data-tab="statistics" id="statistics">
+
+</div>
+
+<div class="ui bottom attached tab segment" data-tab="sentiment" id="sentiment">
 
 </div>
 
@@ -59,6 +64,7 @@
         success: function(response) {
           $("#statistics").html(response['statistics_html']);
           $("#tags").html(response['tags_html']);
+          $("#sentiment").html(response['sentiment_html']);
           $("#network").html(response['network_html']);
           running = false;
         }

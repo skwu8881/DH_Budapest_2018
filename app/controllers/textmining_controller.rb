@@ -2,74 +2,7 @@ class TextminingController < ApplicationController
   skip_before_action :verify_authenticity_token
 
   def index
-  end
 
-  def transaction
-    require "neo4j-core"
-
-    # Session
-    session = Neo4j::Session.open(:server_db)
-
-    # Label/Index
-    labels = %w(Text Geographic Organization Person Geopolitical Time Artifact Event Phenomenon)
-    lshort = %w(txt geo org per gpe tim art eve nat)
-    lshort2label = lshort.zip(labels).to_h
-
-    labels.each do |label|
-      Neo4j::Label.create(label).create_index(:name)
-    end
-
-    # Parse NER json
-    ner_json = File.open("algorithms/Json.txt").each_line.map(&:to_s).join
-    nj = JSON.parse(ner_json).to_a.reject { |i| i['word'].match?(/\A[`'"]+\z/) rescue true }
-
-    Neo4j::Transaction.run do
-      # Deletes all nodes
-      all_nodes = Neo4j::Session.query("MATCH (n) RETURN n")
-      all_nodes.each { |n| n.first.delete }
-
-      # this_news = Neo4j::Node.create({name: 'Text'}, 'Text')
-
-      # Creates nodes and sets relations
-=begin
-      nj.each do |u|
-        if lshort.include?(u['cate'])
-          node = Neo4j::Node.create({name: u['word']}, lshort2label[u['cate']])
-          this_news.create_rel(('has_' + u['cate']).to_sym, node)
-        end
-      end
-=end
-      st = 0
-      until st >= nj.size
-        w2tag = {}
-        tag2ws = Hash.new { |h, k| h[k] = Array.new }
-        w2cnt = Hash.new { |h, k| h[k] = 0 }
-        w2node = {}
-        ed = st
-        cl = 0
-        until cl == 10000 || ed == nj.size
-          ed += 1 until ed == nj.size || nj[ed]['word'] == ?.
-          cl += 1
-        end
-        (st...ed).each do |i|
-          if lshort.include?(nj[i]['cate'])
-            w2tag[nj[i]['word']] = nj[i]['cate']
-            tag2ws[nj[i]['cate']] << nj[i]['word']
-            w2cnt[nj[i]['word']] += 1
-            w2node[nj[i]['word']] = Neo4j::Node.create({name: nj[i]['word']}, lshort2label[nj[i]['cate']])
-          end
-        end
-        x = w2tag.to_a
-        x.size.times do |i|
-          (i + 1).upto(x.size - 1) do |j|
-            next if x[j][1] == x[i][1]
-            w2node[x[i][0]].create_rel(:-, w2node[x[j][0]])
-            w2node[x[j][0]].create_rel(:-, w2node[x[i][0]])
-          end
-        end
-        st = ed + 1
-      end
-    end
   end
 
   def submit_article
@@ -155,7 +88,7 @@ u = JSON.parse(s).to_a.reject { |i| i['word'].match?(/\A[`'"]+\z/) rescue true }
 n_ptr, u_ptr = 0, 0
 res = '<div class="entities">'
 until n_ptr == n.size
-  w = u[u_ptr]['word'] rescue nil
+  w = u[u_ptr]['word'].strip rescue nil
   if u_ptr < u.size && n[n_ptr, w.size] == w
     res += '<mark data-entity="' + u[u_ptr]['cate'] + '">' if u[u_ptr]['cate'] != 'None'
     res += w
@@ -168,6 +101,13 @@ until n_ptr == n.size
   end
 end
 res += '</div>'
+}
+EOS
+sentiment_html:
+<<-EOS,
+#{
+js = JSON.parse(`curl -d "text=#{File.open("algorithms/input.txt").each_line.map(&:to_s).join ?\n}" http://text-processing.com/api/sentiment/`)
+"<p>The text is most likely <strong style=\"color:#{js['label'] == 'pos' ? 'green' : js['label'] == 'neg' ? 'red' : 'grey'}\">#{js['label']}</strong></p>\n<p>Probability: #{js['probability'][js['label']]}%</p>"
 }
 EOS
 network_html:
